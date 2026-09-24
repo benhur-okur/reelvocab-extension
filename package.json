@@ -1,0 +1,21 @@
+{
+  "name": "reelvocab-extension",
+  "version": "0.1.0",
+  "versionName": "0.1.0",
+  "private": true,
+  "description": "ReelVocab identifies idioms, phrasal verbs, slang, and context-specific expressions in YouTube captions and explains their meaning in the scene.",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/build.mjs",
+    "build:dev": "node scripts/build.mjs --dev",
+    "watch": "node scripts/build.mjs --watch",
+    "package": "node scripts/package.mjs",
+    "icons": "node scripts/make-icons.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "esbuild": "^0.23.0",
+    "typescript": "^5.5.0"
+  }
+}

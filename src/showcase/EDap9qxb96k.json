@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 1,
+  "videoId": "EDap9qxb96k",
+  "title": "Solo trip to Antarctica",
+  "sourceKind": "manual",
+  "model": "mistral-large-2512",
+  "promptVersion": 6,
+  "processedAt": "2026-09-21T17:51:13.156Z",
+  "items": [
+    {
+      "term": "bucket list",
+      "senseHere": "here means a list of things you want to do before you die",
+      "type": "idiom",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 53.85,
+      "end": 57.24,
+      "nuance": "A bucket list is a personal list of experiences or achievements someone wants to have in their lifetime. The phrase comes from the idea of 'kicking the bucket,' which is a slang way of saying 'dying.' It is often used in travel or personal growth contexts."
+    },
+    {
+      "term": "adventure hub",
+      "senseHere": "here means a central place where many adventurous activities start",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 63.96,
+      "end": 65.46,
+      "nuance": "A hub is a central point where things connect or start from. An adventure hub is a place known for being the starting point of many exciting or adventurous activities, like trips or expeditions."
+    },
+    {
+      "term": "gateway to",
+      "senseHere": "here means the main entry point or starting place for something",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 69.57,
+      "end": 72.69,
+      "nuance": "A gateway is a place or thing that serves as an entrance or starting point. Saying a place is the 'gateway to' somewhere means it is the main or most important way to begin a journey or experience there."
+    },
+    {
+      "term": "cross",
+      "senseHere": "here means to travel across a body of water or area",
+      "type": "shifted_sense",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 83.76,
+      "end": 86.07,
+      "nuance": "Normally, 'cross' means to go from one side of something to the other, like crossing a street. Here, it specifically means traveling across a large body of water, like the Drake Passage, which is a well-known part of an Antarctic journey."
+    },
+    {
+      "term": "so far so good",
+      "senseHere": "here means things are going well up to this point",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 111.57,
+      "end": 112.68,
+      "nuance": "This is a common way to say that everything has been fine up until now, but there may still be challenges ahead. It is often used when you are cautiously optimistic about a situation."
+    },
+    {
+      "term": "easy Drake crossing",
+      "senseHere": "here means a smooth, uneventful journey across the Drake Passage",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 113.64,
+      "end": 115.8,
+      "nuance": "Sailors and travelers use this phrase to describe a rare, calm trip across the Drake Passage. Normally, the seas are extremely rough, so an 'easy crossing' is something to be grateful for."
+    },
+    {
+      "term": "on the bow",
+      "senseHere": "here means at the front part of the ship",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 117.36,
+      "end": 120.39,
+      "nuance": "The bow is the front of a ship. This phrase is nautical jargon, so you would mostly hear it in contexts related to sailing or boating."
+    },
+    {
+      "term": "wake of the ship",
+      "senseHere": "here means the trail of disturbed water left behind a moving ship",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 126.36,
+      "end": 129.6,
+      "nuance": "The wake is the visible path of waves created by a ship as it moves through the water. Birds like albatrosses often follow ships to feed on fish stirred up by the wake."
+    },
+    {
+      "term": "out on shore",
+      "senseHere": "here means onto the land from the water, specifically after arriving by boat",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 149.55,
+      "end": 150.75,
+      "nuance": "This phrase is used when people move from a ship or boat onto the land, especially in travel or exploration contexts. It emphasizes the transition from water to land, not just being on the shore."
+    },
+    {
+      "term": "hangs out",
+      "senseHere": "here means stays or remains in a place without moving forward",
+      "type": "phrasal_verb",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 150.75,
+      "end": 153.72,
+      "nuance": "Normally, 'hang out' means to spend time relaxing or socializing. Here, it describes the ship staying in one place offshore, waiting rather than moving. The informal tone fits the casual description of the ship's action."
+    },
+    {
+      "term": "offshore",
+      "senseHere": "here means in the water near the land but not on it",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 150.75,
+      "end": 153.72,
+      "nuance": "Offshore refers to something located in the water, away from the shore but still close enough to see land. It is commonly used in travel, shipping, or geography to describe the position of ships or activities happening in the sea near the coast."
+    },
+    {
+      "term": "zodiac boats",
+      "senseHere": "here means small, inflatable boats used for transporting people from ships to shore",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 157.77,
+      "end": 160.47,
+      "nuance": "Zodiac boats are a specific type of inflatable boat, often used in expeditions or rescue operations. They are lightweight, durable, and designed to navigate shallow or rough waters, making them ideal for shore landings in remote areas like Antarctica."
+    },
+    {
+      "term": "tentative itinerary",
+      "senseHere": "here means a planned schedule that may change",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 157.77,
+      "end": 160.47,
+      "nuance": "A tentative itinerary is a travel plan that is not final and can be adjusted based on circumstances like weather or unexpected events. The word 'tentative' suggests flexibility, which is common in expeditions where conditions are unpredictable."
+    },
+    {
+      "term": "shore landings",
+      "senseHere": "here means going onto the land from a ship, especially in an expedition context",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 163.98,
+      "end": 165.87,
+      "nuance": "Shore landings refer to the process of disembarking from a ship onto the land, often in remote or wild areas. This term is specific to travel or exploration, emphasizing the act of reaching the shore for activities like wildlife observation."
+    },
+    {
+      "term": "dependent on",
+      "senseHere": "here means relying on or affected by something else, often conditions like weather",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 165.87,
+      "end": 168.093,
+      "nuance": "This phrase means that something cannot happen unless certain conditions are met. In travel or expeditions, it often refers to plans that may change if the weather or other factors are not favorable."
+    },
+    {
+      "term": "chin strap penguins",
+      "senseHere": "here means a specific type of penguin with a black line under its chin",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 184.32,
+      "end": 188.28,
+      "nuance": "Chin strap penguins are named for the thin black band that runs under their chin, resembling a strap. They are one of the most recognizable penguin species in Antarctica and are often seen in large colonies."
+    },
+    {
+      "term": "named for the obvious",
+      "senseHere": "here means given a name based on a clear or visible feature",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 184.32,
+      "end": 188.28,
+      "nuance": "This phrase is used when something is named after a feature that is easy to see or understand. It is often used humorously or casually to point out that the name is straightforward and not mysterious."
+    },
+    {
+      "term": "gentoo",
+      "senseHere": "here means a type of penguin with a bright orange beak and white stripe on its head",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 191.7,
+      "end": 193.47,
+      "nuance": "Gentoo penguins are easily recognizable by their bright orange beaks and the white stripe that runs across the top of their heads. They are larger than Adelie or chin strap penguins and are known for their loud calls and fast swimming."
+    },
+    {
+      "term": "gentoo penguin",
+      "senseHere": "here refers to a specific species of penguin, Pygoscelis papua",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "technical",
+      "start": 205.26,
+      "end": 208.44,
+      "nuance": "Gentoo penguins are a distinct species known for their bright orange beaks and fast swimming. The term is specific to wildlife and would not be used in everyday conversation unless discussing penguins."
+    },
+    {
+      "term": "napping",
+      "senseHere": "here means sleeping lightly or briefly, often during the day",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 205.26,
+      "end": 208.44,
+      "nuance": "While napping usually refers to humans taking short sleeps, here it describes penguin behavior. It’s a playful way to highlight how similar animal behaviors can be to ours, but the word itself is common and neutral."
+    },
+    {
+      "term": "tuft",
+      "senseHere": "here means a small bunch or clump, especially of feathers or hair",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 208.44,
+      "end": 210.96,
+      "nuance": "A tuft is a small cluster of something soft, like feathers or fur. It’s not a very common word in everyday speech but is often used to describe animals or plants in a detailed way."
+    },
+    {
+      "term": "chicks",
+      "senseHere": "here means baby birds, specifically young penguins",
+      "type": "shifted_sense",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 220.5,
+      "end": 223.77,
+      "nuance": "While 'chick' can mean a young bird in general, it’s often used casually to refer to young penguins in wildlife contexts. In everyday speech, it can also mean a young woman, but that sense doesn’t apply here."
+    },
+    {
+      "term": "twins",
+      "senseHere": "here means two baby penguins born at the same time, like human twins",
+      "type": "shifted_sense",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 220.5,
+      "end": 223.77,
+      "nuance": "Twins usually refers to two human babies born at the same time. Here, it’s used playfully to describe two penguin chicks, emphasizing how rare or special it is to see them together."
+    },
+    {
+      "term": "giddy",
+      "senseHere": "here means extremely excited or happy, almost to the point of feeling dizzy",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "informal",
+      "start": 223.77,
+      "end": 227.58,
+      "nuance": "Giddy describes a feeling of excitement so strong it’s almost overwhelming. It’s often used in positive, joyful situations like this one, where someone is thrilled about something they’re seeing or doing."
+    },
+    {
+      "term": "nubby",
+      "senseHere": "here means small, short, and slightly rough or uneven, like a tiny bump",
+      "type": "word",
+      "difficulty": "c1",
+      "register": "neutral",
+      "start": 227.58,
+      "end": 231.75,
+      "nuance": "Nubby describes something that’s small and a bit rough or uneven, like the tail of a baby penguin. It’s not a very common word but is often used to describe textures or small physical features in a detailed way."
+    },
+    {
+      "term": "waterproof",
+      "senseHere": "here means not allowing water to pass through, keeping something dry",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 240.09,
+      "end": 241.98,
+      "nuance": "Waterproof describes materials or features that don’t let water in, like raincoats or penguin feathers. Here, it’s used to explain why baby penguins need to stay dry — their feathers aren’t waterproof yet, unlike adult penguins."
+    },
+    {
+      "term": "groom",
+      "senseHere": "here means clean and care for another animal’s fur or feathers",
+      "type": "shifted_sense",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 273.24,
+      "end": 276.03,
+      "nuance": "Normally, 'groom' can mean to prepare someone for a role or to take care of one's appearance. For animals, it specifically means cleaning and caring for another animal’s fur, feathers, or skin. Here, the parent penguin is trying to clean its chick."
+    },
+    {
+      "term": "penguin highways",
+      "senseHere": "here means dedicated paths that penguins use to travel together",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 277.32,
+      "end": 280.11,
+      "nuance": "This is a playful term used to describe the well-worn trails that penguins create and follow in groups. It’s not a technical term but a descriptive phrase used in nature documentaries or casual conversation about animal behavior."
+    },
+    {
+      "term": "made it back",
+      "senseHere": "here means successfully returned",
+      "type": "phrasal_verb",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 290.97,
+      "end": 292.5,
+      "nuance": "To 'make it back' means to return successfully, often after some effort or difficulty. It’s a common way to describe arriving at a destination, especially when the journey was challenging or uncertain."
+    },
+    {
+      "term": "remote wilderness",
+      "senseHere": "here means a wild, uninhabited area far from human settlements",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 298.62,
+      "end": 301.92,
+      "nuance": "A 'remote wilderness' refers to a place that is far from cities or towns and is largely untouched by humans. It’s often used to describe natural environments like forests, deserts, or polar regions where wildlife thrives."
+    },
+    {
+      "term": "disinfecting tubs",
+      "senseHere": "here means containers filled with disinfectant to clean boots and equipment before going ashore",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 316.2,
+      "end": 320.22,
+      "nuance": "These are used in sensitive environments (like wildlife areas) to prevent the spread of diseases or invasive species. You step into them to clean your gear before and after landing."
+    },
+    {
+      "term": "zodiacs",
+      "senseHere": "here means small, inflatable boats used for landing on shore or exploring water",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 371.37,
+      "end": 373.74,
+      "nuance": "Zodiacs are a brand of rigid inflatable boats (RIBs) commonly used in expedition travel. They’re lightweight, durable, and ideal for navigating shallow or remote waters."
+    },
+    {
+      "term": "like glass",
+      "senseHere": "here means extremely smooth and calm, with no waves",
+      "type": "idiom",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 379.59,
+      "end": 383.82,
+      "nuance": "The phrase compares the water to glass, which is smooth and flat. It’s often used to describe water that is so calm it looks almost solid, like a mirror. You might hear it in travel or nature descriptions, not just in everyday conversation."
+    },
+    {
+      "term": "ethereal",
+      "senseHere": "here means extremely delicate, beautiful, and almost otherworldly",
+      "type": "word",
+      "difficulty": "c1",
+      "register": "neutral",
+      "start": 388.53,
+      "end": 392.22,
+      "nuance": "Ethereal usually describes something so light, delicate, or beautiful that it seems not of this world. In this scene, it’s used to emphasize how magical and surreal the experience felt. It’s a poetic word, not commonly used in casual conversation."
+    },
+    {
+      "term": "do it justice",
+      "senseHere": "here means capture or show something accurately and fully, especially its beauty or importance",
+      "type": "idiom",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 392.22,
+      "end": 394.383,
+      "nuance": "To 'do justice' to something means to represent it in a way that fully shows its value, beauty, or importance. Here, it’s used to say the camera can’t fully capture how amazing the experience was. You might hear this when talking about photos, descriptions, or performances."
+    },
+    {
+      "term": "expedition submarines",
+      "senseHere": "here means specialized submarines designed for exploring and scientific research, not military or commercial use",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 431.88,
+      "end": 435.78,
+      "nuance": "Expedition submarines are built for deep-sea exploration, often used by scientists or adventurers to study wildlife, geography, or underwater environments. Unlike military submarines, they prioritize observation and research over speed or stealth."
+    },
+    {
+      "term": "technology was here yet",
+      "senseHere": "here means the technology existed or was available at this time",
+      "type": "idiom",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 441.06,
+      "end": 443.52,
+      "nuance": "The phrase 'was here yet' is often used to express surprise that something (like technology) exists or is available sooner than expected. It’s a casual way to say, 'I didn’t know this was possible already.'"
+    },
+    {
+      "term": "excursion",
+      "senseHere": "here means a short trip or outing, usually for pleasure or exploration",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 473.558,
+      "end": 476.97,
+      "nuance": "An excursion is a planned trip, often short and for a specific purpose like sightseeing or adventure. It’s commonly used in travel contexts to describe activities like kayaking, hiking, or guided tours."
+    },
+    {
+      "term": "stopping in",
+      "senseHere": "here means visiting briefly, making a short stop",
+      "type": "phrasal_verb",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 505.65,
+      "end": 507.72,
+      "nuance": "On its own, 'stop' means to halt movement. Adding 'in' suggests a brief visit to a place, often unplanned or as part of a longer journey. It’s a casual way to say you’re dropping by somewhere for a short time."
+    },
+    {
+      "term": "southern most",
+      "senseHere": "here means the farthest south, the most southern point",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 507.72,
+      "end": 511.11,
+      "nuance": "This is a way to describe the extreme end of a direction, like north, south, east, or west. The '-most' suffix means 'the most' in that direction. It’s often used in geography to talk about the farthest points on a map."
+    },
+    {
+      "term": "postage",
+      "senseHere": "here means the cost or stamp needed to mail a letter or package",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 513.18,
+      "end": 516.513,
+      "nuance": "Postage refers to the money you pay to send mail, or the stamp you put on an envelope to show you’ve paid. It’s a specific term used in mailing, not something you’d hear in everyday conversation unless you’re talking about sending letters."
+    },
+    {
+      "term": "nicknamed",
+      "senseHere": "here means given an informal, descriptive name",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 520.8,
+      "end": 523.56,
+      "nuance": "A nickname is an informal name given to someone or something, often based on a characteristic or a story. Here, it’s used to describe how Port Lockroy got its playful name, 'Penguin Post Office,' because of the penguins living there."
+    },
+    {
+      "term": "made the place their own",
+      "senseHere": "here means claimed it as their home, settled in comfortably",
+      "type": "idiom",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 525.84,
+      "end": 527.94,
+      "nuance": "This phrase means that the penguins have taken over the place and made it feel like home. It’s a way to say that something or someone has settled in and feels very comfortable in a space, almost as if they own it."
+    },
+    {
+      "term": "holiday card",
+      "senseHere": "here means a greeting card sent during a holiday, often with a family photo",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 533.04,
+      "end": 536.133,
+      "nuance": "A holiday card is a card people send to friends and family during holidays like Christmas or New Year. It often includes a photo of the family and a message wishing them well. Here, it’s used playfully to describe how the penguins look like they’re posing for a family photo."
+    },
+    {
+      "term": "as if it wasn't special enough",
+      "senseHere": "here means emphasizing how unique or amazing something already is",
+      "type": "idiom",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 558.81,
+      "end": 561.72,
+      "nuance": "This phrase is used to highlight that something is already impressive or special, and then add that there’s even more to make it extraordinary. It’s a way to build excitement or emphasize how amazing a place or experience is."
+    },
+    {
+      "term": "showed up",
+      "senseHere": "here means appeared unexpectedly",
+      "type": "phrasal_verb",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 561.72,
+      "end": 565.32,
+      "nuance": "To show up means to arrive or appear, often unexpectedly or without prior notice. In this context, it emphasizes the surprise of seeing the orca, rather than a planned or routine appearance."
+    },
+    {
+      "term": "handy",
+      "senseHere": "here means useful or convenient",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "informal",
+      "start": 587.43,
+      "end": 589.89,
+      "nuance": "Handy describes something that is easy to use or helpful in a particular situation. It’s a casual way to say that something is practical or makes a task easier."
+    },
+    {
+      "term": "drying closets",
+      "senseHere": "here means small enclosed spaces for drying wet clothes",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 589.89,
+      "end": 593.1,
+      "nuance": "Drying closets are specialized compartments, often found on ships or in homes, designed to dry wet clothing quickly using heat or airflow. They’re a practical feature for travelers in wet or cold environments."
+    },
+    {
+      "term": "wet stuff",
+      "senseHere": "here means damp or soaked clothing and gear",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "informal",
+      "start": 594.96,
+      "end": 597.69,
+      "nuance": "Wet stuff is a casual way to refer to clothing or items that are damp or soaked, often after being in water or rain. It’s a simple, conversational phrase rather than a formal term."
+    },
+    {
+      "term": "toasty",
+      "senseHere": "here means warm and cozy",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 601.41,
+      "end": 603.99,
+      "nuance": "Toasty describes something that feels pleasantly warm, often in a way that makes you feel comfortable and relaxed. It’s a casual, friendly word, not typically used in formal settings."
+    },
+    {
+      "term": "expedition ship",
+      "senseHere": "here means a vessel designed for exploration in remote areas",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 603.99,
+      "end": 606.81,
+      "nuance": "An expedition ship is a specialized type of vessel built for travel in challenging or remote environments, like polar regions. Unlike regular cruise ships, they prioritize exploration, research, and adventure over luxury alone."
+    },
+    {
+      "term": "theme touches",
+      "senseHere": "here means decorative elements that reflect a specific style or idea",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 614.43,
+      "end": 616.65,
+      "nuance": "Theme touches are small design details that reinforce a particular concept or aesthetic, like explorer-themed decorations on a ship. They help create a cohesive atmosphere or experience."
+    },
+    {
+      "term": "bow lounge",
+      "senseHere": "here means a seating area at the front of the ship",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 617.79,
+      "end": 620.28,
+      "nuance": "The bow is the front part of a ship, and a bow lounge is a comfortable seating area located there. It’s a common feature on expedition ships, offering great views for wildlife watching or navigation."
+    },
+    {
+      "term": "navigational charts",
+      "senseHere": "here means maps used for steering and plotting a ship's course",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 620.28,
+      "end": 621.84,
+      "nuance": "Navigational charts are detailed maps specifically designed for maritime use. They show water depths, coastlines, hazards, and other critical information to help sailors plan and follow a safe route."
+    },
+    {
+      "term": "mudrooms",
+      "senseHere": "here means small rooms or entryways where passengers can store dirty or wet outdoor gear like boots and jackets",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 629.13,
+      "end": 630.96,
+      "nuance": "A mudroom is a practical space, usually near an entrance, designed to keep dirt and moisture from spreading into the rest of a building. You’ll often find them in homes, schools, or places like ships where people come in from outdoor activities. The name comes from 'mud' — it’s where you leave your muddy boots!"
+    },
+    {
+      "term": "gear",
+      "senseHere": "here means equipment or clothing used for a specific activity, like hiking or excursions",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 633.66,
+      "end": 634.77,
+      "nuance": "Gear refers to tools, clothing, or accessories needed for a particular task or hobby. In everyday use, it can mean anything from sports equipment to camping supplies. Here, it’s specifically about items like boots and outdoor clothing for exploring Antarctica."
+    },
+    {
+      "term": "whirl pools",
+      "senseHere": "here means heated pools with jets that create swirling water for relaxation",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 640.05,
+      "end": 642.99,
+      "nuance": "A whirlpool is a swirling body of water, but in this context, it refers to a small, heated pool with jets that create a massaging effect. These are common on cruise ships and in spas for relaxation. The term is often used interchangeably with 'hot tub' or 'jacuzzi.'"
+    },
+    {
+      "term": "spacious",
+      "senseHere": "here means having a lot of space, large and roomy",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 654.06,
+      "end": 656.37,
+      "nuance": "Spacious describes something that has plenty of room, like a large room or a comfortable area. It’s a common word to describe homes, hotels, or, as here, cruise ship suites. The opposite would be 'cramped' or 'small.'"
+    },
+    {
+      "term": "walk-in closets",
+      "senseHere": "here means large closets big enough to walk into, used for storing clothes and other items",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 656.37,
+      "end": 660.303,
+      "nuance": "A walk-in closet is a storage space, usually for clothes, that is large enough for a person to enter. Unlike a regular closet, you can walk inside it to organize or choose your outfits. They are a luxury feature in homes and high-end accommodations like cruise ship suites."
+    },
+    {
+      "term": "in place",
+      "senseHere": "here means already prepared and ready to use",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 678.75,
+      "end": 680.97,
+      "nuance": "When something is 'in place,' it means it has been set up or arranged so it is ready to work or be used. This phrase is often used for plans, systems, or arrangements that are already organized and available when needed."
+    },
+    {
+      "term": "coming along",
+      "senseHere": "here means joining or accompanying someone",
+      "type": "phrasal_verb",
+      "difficulty": "a2",
+      "register": "informal",
+      "start": 725.1,
+      "end": 726.99,
+      "nuance": "To 'come along' means to go somewhere with someone or to join them in an activity. It’s a casual way to invite someone or to talk about someone joining you, like on a trip or an adventure."
+    },
+    {
+      "term": "surpassed my dreams",
+      "senseHere": "here means was even better than I had imagined",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 729.21,
+      "end": 731.64,
+      "nuance": "If something 'surpasses your dreams,' it means it exceeded what you hoped for or imagined. It’s a way to say that an experience was so good it went beyond your expectations."
+    },
+    {
+      "term": "untouchable",
+      "senseHere": "here means something so special or distant it feels impossible to reach",
+      "type": "shifted_sense",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 731.64,
+      "end": 734.7,
+      "nuance": "Normally, 'untouchable' means something you cannot physically touch. Here, it describes something that feels so far away or special that it seems impossible to experience or achieve, like a dream destination."
+    },
+    {
+      "term": "made it",
+      "senseHere": "here means successfully reached or achieved something",
+      "type": "phrasal_verb",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 737.4,
+      "end": 738.27,
+      "nuance": "To 'make it' means to succeed in reaching a goal or arriving at a place. It’s a casual way to say you’ve accomplished something important to you, like traveling to a special destination."
+    }
+  ],
+  "review": {
+    "kept": 64,
+    "removed": [
+      {
+        "term": "shore landings",
+        "reason": "tekrar (otomatik, bölümler arası)"
+      },
+      {
+        "term": "gentoo penguin",
+        "reason": "tekrar (otomatik, bölümler arası)"
+      },
+      {
+        "term": "bucket list",
+        "reason": "tekrar (otomatik, bölümler arası)"
+      },
+      {
+        "term": "Welcome to",
+        "reason": "ÇOK TEMEL: çok bilinen bir kalıp"
+      },
+      {
+        "term": "gonna",
+        "reason": "ÇOK TEMEL: A1 kısaltma, hedef kitle zaten biliyor"
+      },
+      {
+        "term": "arrived at",
+        "reason": "TAHMİN EDİLEBİLİR: 'vardık' anlamında düz kullanım"
+      },
+      {
+        "term": "bring passengers to shore",
+        "reason": "TAHMİN EDİLEBİLİR: shore bilinebilir, ifade parçalardan çıkarılıyor"
+      },
+      {
+        "term": "penguin colonies",
+        "reason": "TAHMİN EDİLEBİLİR: iki bilinen kelimenin düz birleşimi"
+      },
+      {
+        "term": "as cut as",
+        "reason": "ASR: sahnede 'as cute as' söyleniyor, model yanlış duyulan kelimeye slang anlamı üretmiş"
+      },
+      {
+        "term": "bird colony",
+        "reason": "TAHMİN EDİLEBİLİR: öngörülemeyen bir nokta yok"
+      },
+      {
+        "term": "depths of the ocean",
+        "reason": "TAHMİN EDİLEBİLİR: parçalardan çıkarılıyor"
+      },
+      {
+        "term": "cold weather climates",
+        "reason": "ÇOK TEMEL: A2 düzeyi, düz anlam"
+      }
+    ]
+  }
+}

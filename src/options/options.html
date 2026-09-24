@@ -1,0 +1,171 @@
+<!--
+  BYOK ayar sayfası — kapsam bilinçli olarak DAR.
+
+  Yalnız anahtarı alır ve saklar. Sağlayıcı seçimi, model seçimi, maliyet
+  tahmini ve kota göstergesi YOK.
+
+  Betik ayrı dosyada, çünkü MV3 eklenti sayfalarında inline <script> CSP
+  tarafından engelleniyor. Inline <style> engellenmiyor, o yüzden stil burada.
+
+  METİNLER `_locales`'ta: data-i18n özniteliği taşıyan her elemanın metni
+  yükleme anında options.ts dolduruyor (textContent — HTML değil). Bu yüzden
+  satır içi biçim (<strong>, <a>) metnin İÇİNDE değil, ayrı elemanlarda: dile
+  göre kelime sırası değişse de bağlantı ve kalın kısım bozulmuyor.
+  build.mjs her data-i18n anahtarının iki dil dosyasında da olduğunu doğruluyor.
+-->
+<meta charset="utf-8" />
+<title data-i18n="optionsTitle"></title>
+
+<style>
+  :root {
+    color-scheme: light dark;
+    --fg: #1f2933;
+    --muted: #6b7280;
+    --bg: #ffffff;
+    --border: #d1d5db;
+    --accent: #1f2933;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #e8eaed;
+      --muted: #9aa0a6;
+      --bg: #202124;
+      --border: #4a4d51;
+      --accent: #8ab4f8;
+    }
+  }
+
+  body {
+    margin: 0;
+    padding: 24px;
+    min-width: 360px;
+    font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--fg);
+    background: var(--bg);
+  }
+
+  h1 {
+    margin: 0 0 16px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    font: inherit;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    color: var(--fg);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+
+  .hint {
+    margin: 8px 0 18px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  .hint a {
+    color: var(--accent);
+  }
+
+  button {
+    padding: 8px 16px;
+    font: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--bg);
+    background: var(--fg);
+    border: 1px solid var(--fg);
+    border-radius: 6px;
+  }
+
+  #status {
+    margin: 12px 0 0;
+    min-height: 1.5em;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  #status[data-kind="error"] {
+    color: #d93025;
+  }
+
+  .lead {
+    margin: 0 0 14px;
+  }
+
+  .showcase {
+    margin: 0 0 20px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+
+  .showcase[hidden] {
+    display: none;
+  }
+
+  .showcase-label {
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted);
+  }
+
+  .showcase ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  .showcase a {
+    color: var(--accent);
+  }
+</style>
+
+<h1 data-i18n="optionsTitle"></h1>
+
+<!-- Karar 8: anahtarsız kullanım birinci sınıf. Anahtar yalnız vitrin dışı
+     videolar için gerekiyor; bu, sayfanın EN ÜSTÜNDE söyleniyor ki kullanıcı
+     "önce anahtar almam lazım" diye düşünüp vazgeçmesin. -->
+<p class="lead">
+  <strong data-i18n="optionsLeadFree"></strong>
+  <span data-i18n="optionsLeadKey"></span>
+</p>
+
+<div id="showcase" class="showcase" hidden>
+  <div class="showcase-label" data-i18n="optionsShowcaseLabel"></div>
+  <ul id="showcase-list"></ul>
+</div>
+
+<label for="api-key" data-i18n="optionsKeyLabel"></label>
+<input id="api-key" type="password" autocomplete="off" spellcheck="false" />
+
+<p class="hint">
+  <span data-i18n="optionsKeyWhere"></span>
+  <a href="https://console.mistral.ai" target="_blank" rel="noreferrer noopener"
+    >console.mistral.ai</a
+  ><br />
+  <strong data-i18n="optionsKeyPaid"></strong>
+  <span data-i18n="optionsKeyPaidWhy"></span><br />
+  <!-- 🔴 Veri beyanı: anahtar Mistral'e GÖNDERİLİYOR (her annotasyon
+       çağrısında). Eski metin "hiçbir yere gönderilmez" diyordu — yanlıştı. -->
+  <span data-i18n="optionsKeyStorage"></span>
+  <span data-i18n="optionsKeyDelete"></span>
+</p>
+
+<button id="save" type="button" data-i18n="optionsSave"></button>
+
+<p id="status" role="status" aria-live="polite"></p>
+
+<script src="options.js"></script>

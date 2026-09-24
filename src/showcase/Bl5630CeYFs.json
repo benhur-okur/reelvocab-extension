@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "videoId": "Bl5630CeYFs",
+  "title": "Margot Robbie — Vogue 73 Questions",
+  "sourceKind": "manual",
+  "model": "mistral-large-2512",
+  "promptVersion": 6,
+  "processedAt": "2026-09-21T17:44:51.228Z",
+  "items": [
+    {
+      "term": "brunch",
+      "senseHere": "here means a meal that combines breakfast and lunch, usually eaten in the late morning or early afternoon",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 19.786,
+      "end": 21.42,
+      "nuance": "Brunch is a popular meal, especially on weekends, where people enjoy dishes that are typically served for breakfast (like eggs or pancakes) alongside lunch items (like sandwiches or salads). It’s often a social meal where friends or family gather together."
+    },
+    {
+      "term": "good at pool",
+      "senseHere": "here means skilled at playing pool (the billiards game)",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "informal",
+      "start": 36.86,
+      "end": 38.66,
+      "nuance": "Pool refers to a game played on a billiards table with balls and a cue stick. When someone says they want to be 'good at pool,' they mean they want to improve their skills in this game. It’s a common phrase when talking about hobbies or games people enjoy."
+    },
+    {
+      "term": "texter",
+      "senseHere": "here means someone who prefers to send text messages rather than call",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "informal",
+      "start": 38.66,
+      "end": 40.89,
+      "nuance": "A texter is a person who likes to communicate by sending written messages (texts) on their phone instead of talking on the phone. It’s a casual way to describe someone’s communication preference."
+    },
+    {
+      "term": "caller",
+      "senseHere": "here means someone who prefers to make phone calls rather than text",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "informal",
+      "start": 38.66,
+      "end": 40.89,
+      "nuance": "A caller is a person who likes to talk on the phone instead of sending text messages. It’s the opposite of a texter and describes how someone prefers to communicate."
+    },
+    {
+      "term": "kinda",
+      "senseHere": "here means 'kind of,' a casual way to say 'somewhat' or 'a little'",
+      "type": "abbreviation",
+      "difficulty": "a2",
+      "register": "informal",
+      "start": 52.09,
+      "end": 54.743,
+      "nuance": "Kinda is a shortened, informal way of saying 'kind of.' It’s used in casual speech to soften a statement or describe something that is true to some extent but not completely. For example, 'It’s kinda cold' means it’s a little cold, but not very."
+    },
+    {
+      "term": "convenience",
+      "senseHere": "here means the ease and availability of services, like stores being open late",
+      "type": "shifted_sense",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 73.67,
+      "end": 74.503,
+      "nuance": "Normally, 'convenience' means something that makes life easier or more comfortable. In this context, it specifically refers to the practical advantages of a place, like shops, restaurants, or services being open late or easily accessible. It’s a common way to describe why a city or country feels efficient or user-friendly."
+    },
+    {
+      "term": "open so late",
+      "senseHere": "here means businesses like stores or restaurants stay open until very late hours",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 74.503,
+      "end": 75.66,
+      "nuance": "This phrase describes a common feature of cities where shops, cafes, or other services remain open well into the night. It’s often used to highlight the convenience or vibrancy of a place, especially when comparing it to locations where businesses close early."
+    },
+    {
+      "term": "Mona",
+      "senseHere": "here refers to the Museum of Old and New Art, a famous contemporary art museum in Tasmania",
+      "type": "abbreviation",
+      "difficulty": "c1",
+      "register": "technical",
+      "start": 81.14,
+      "end": 83.51,
+      "nuance": "MONA is a well-known museum in Hobart, Tasmania, renowned for its unconventional and provocative contemporary art. It’s a major cultural landmark, and referring to it simply as 'the Mona' is common among those familiar with it. If you’re visiting Tasmania, it’s a must-see for art lovers."
+    },
+    {
+      "term": "look for",
+      "senseHere": "here means seek or desire specific qualities",
+      "type": "phrasal_verb",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 98.264,
+      "end": 99.67,
+      "nuance": "In everyday use, 'look for' means to search for something you’ve lost or need. Here, it’s about seeking qualities in a script — what the actor values in storytelling. It’s a common way to ask about preferences in creative work."
+    },
+    {
+      "term": "surprised, but also satisfied",
+      "senseHere": "here means wanting a story to be unexpected yet fulfilling",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 99.67,
+      "end": 104.67,
+      "nuance": "This isn’t just about being happy. In film, 'surprised' means the story shouldn’t be predictable, while 'satisfied' means it should still feel complete and emotionally rewarding. It’s a balance actors and audiences both seek in good storytelling."
+    },
+    {
+      "term": "comic book buffs",
+      "senseHere": "here means fans who know a lot about comic books",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "informal",
+      "start": 110.33,
+      "end": 112.22,
+      "nuance": "A 'buff' is someone who is very knowledgeable or enthusiastic about a topic. 'Comic book buffs' are fans who deeply understand the stories, characters, and history of comic books. It’s a casual way to describe dedicated fans in pop culture."
+    },
+    {
+      "term": "harder to please",
+      "senseHere": "here means more difficult to satisfy or impress",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 112.22,
+      "end": 115.1,
+      "nuance": "This means a group of people who have high standards and are not easily impressed. In film, it’s often used to describe audiences with deep knowledge of a subject, like comic books or history, who notice small mistakes or inaccuracies."
+    },
+    {
+      "term": "practice accents",
+      "senseHere": "here means train or improve the way you speak in different regional styles",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 120.123,
+      "end": 121.38,
+      "nuance": "Actors 'practice accents' to sound like people from different places. It’s a skill that requires listening and imitation. The phrase is specific to acting and voice work, not everyday conversation."
+    },
+    {
+      "term": "real life people",
+      "senseHere": "here means actual individuals, not fictional characters",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 121.38,
+      "end": 123.03,
+      "nuance": "In acting, 'real life people' refers to actual individuals whose voices or mannerisms actors study to make their performances more authentic. It’s a common technique for learning accents or behaviors."
+    },
+    {
+      "term": "mimic",
+      "senseHere": "here means copy someone’s speech or behavior exactly",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 123.03,
+      "end": 124.482,
+      "nuance": "To 'mimic' means to imitate someone’s voice, gestures, or way of speaking. Actors use this to learn accents or portray characters realistically. It’s a deliberate, skillful act, not just casual copying."
+    },
+    {
+      "term": "shaken",
+      "senseHere": "here means deeply emotionally affected or disturbed",
+      "type": "shifted_sense",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 125.49,
+      "end": 127.54,
+      "nuance": "Normally, 'shaken' means physically moved or upset, like after an accident. Here, it means emotionally disturbed or deeply affected by something seen on camera. It’s a stronger, more personal reaction than just being surprised."
+    },
+    {
+      "term": "got to do",
+      "senseHere": "here means had the opportunity to work on",
+      "type": "phrasal_verb",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 127.54,
+      "end": 130.1,
+      "nuance": "In everyday language, 'got to' often means 'had to' (e.g., 'I got to leave early'). Here, it means having the chance or privilege to do something, like acting in a film. It’s a positive way to talk about an opportunity you were given."
+    },
+    {
+      "term": "I mean",
+      "senseHere": "here means used to clarify or rephrase a statement",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 144.52,
+      "end": 146.35,
+      "nuance": "This phrase is often used to soften a statement or to add more detail. Here, it introduces a clarification about having many favorite bands, not just one. It’s very common in casual conversation."
+    },
+    {
+      "term": "ELO",
+      "senseHere": "here means Electric Light Orchestra, a famous music band",
+      "type": "abbreviation",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 144.52,
+      "end": 146.35,
+      "nuance": "ELO is an abbreviation for the band Electric Light Orchestra. If you don’t know the band, this abbreviation might be confusing, as it doesn’t explain itself. It’s a well-known name in music history."
+    },
+    {
+      "term": "a gathering",
+      "senseHere": "here means a social event where people come together",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 150.41,
+      "end": 152.18,
+      "nuance": "While 'gathering' can mean any group of people coming together, here it specifically refers to a planned social event, like a party or a get-together. It’s a more formal or intentional word than just 'meeting.'"
+    },
+    {
+      "term": "entail",
+      "senseHere": "here means include or involve as part of something",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 152.18,
+      "end": 154.16,
+      "nuance": "To 'entail' means to involve or require something as a necessary part. Here, it’s asking what activities or foods are typically part of a brunch. It’s a more formal word, often used in explanations or descriptions."
+    },
+    {
+      "term": "cheese board",
+      "senseHere": "here means a platter of assorted cheeses and accompaniments",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 160.98,
+      "end": 163.67,
+      "nuance": "A cheese board is a selection of cheeses, often served with crackers, fruits, nuts, or other accompaniments. It’s a common dish for gatherings or parties. The phrase is straightforward, but it refers to a specific type of food arrangement."
+    },
+    {
+      "term": "disgusting",
+      "senseHere": "here means extremely unpleasant or revolting",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "informal",
+      "start": 170.046,
+      "end": 171.09,
+      "nuance": "While 'disgusting' can be used in a strong way to describe something that makes you feel sick or offended, in casual conversation it’s often used more lightly to express strong dislike, like for a food you really don’t enjoy."
+    },
+    {
+      "term": "stay away",
+      "senseHere": "here means to avoid something or someone",
+      "type": "phrasal_verb",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 171.09,
+      "end": 171.923,
+      "nuance": "To 'stay away' means to keep a distance from something or someone, usually because it’s unpleasant, dangerous, or unwanted. In this context, it’s a casual way of saying they’ll avoid trying the food mentioned earlier."
+    },
+    {
+      "term": "rewarding",
+      "senseHere": "here means giving a sense of satisfaction or fulfillment",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 173.35,
+      "end": 174.26,
+      "nuance": "Something that is 'rewarding' makes you feel happy or satisfied because it’s meaningful or worthwhile. It’s often used to describe experiences, like projects or jobs, that give you a sense of accomplishment."
+    },
+    {
+      "term": "thus far",
+      "senseHere": "here means up to this point or so far",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 174.26,
+      "end": 176.05,
+      "nuance": "'Thus far' is a slightly formal way of saying 'so far' or 'up to now.' It’s often used in professional or reflective contexts, like discussing progress in a career or project."
+    },
+    {
+      "term": "a part of",
+      "senseHere": "here means involved in or contributing to something",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 178.57,
+      "end": 180.32,
+      "nuance": "To be 'a part of' something means to be involved in it or to contribute to it. In this context, it emphasizes being included in the process of making the film, not just observing it."
+    },
+    {
+      "term": "aspects",
+      "senseHere": "here means different parts or features of something",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 180.32,
+      "end": 181.92,
+      "nuance": "'Aspects' refers to the different parts, angles, or features of something. In filmmaking, it could include writing, directing, acting, or producing — all the elements that go into creating a movie."
+    },
+    {
+      "term": "paperwork",
+      "senseHere": "here means administrative tasks or documents, especially those related to production or business",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 191.95,
+      "end": 193.28,
+      "nuance": "While 'paperwork' literally refers to documents on paper, it often means the tedious administrative work involved in projects, like contracts, permits, or reports. In creative fields, it can feel overwhelming compared to the actual creative process."
+    },
+    {
+      "term": "do theater",
+      "senseHere": "here means to perform in plays or stage productions",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 193.28,
+      "end": 194.22,
+      "nuance": "To 'do theater' means to act in plays, musicals, or other live performances. It’s a common way to talk about someone’s involvement in stage acting, as opposed to film or TV work."
+    },
+    {
+      "term": "make a documentary",
+      "senseHere": "here means to create a non-fiction film about a specific topic",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 195.22,
+      "end": 196.053,
+      "nuance": "A documentary is a film or TV program that explores real-life events, issues, or people. 'Make a documentary' is the standard way to talk about producing one, often focusing on social, political, or environmental subjects."
+    },
+    {
+      "term": "oil drilling",
+      "senseHere": "here means extracting oil from the ground or seabed, often for fuel or energy",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 197.33,
+      "end": 198.57,
+      "nuance": "Oil drilling is the process of boring into the earth to extract petroleum. It’s a key part of the energy industry but is often debated due to its environmental impact, especially in sensitive areas like the ocean."
+    },
+    {
+      "term": "cameo",
+      "senseHere": "here means a brief appearance by a well-known person in a film or TV show",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 201.17,
+      "end": 202.63,
+      "nuance": "A cameo is a small but memorable role, often played by a celebrity or someone famous. It’s usually a fun surprise for the audience and doesn’t require a long commitment from the actor."
+    },
+    {
+      "term": "wicked",
+      "senseHere": "here means excellent or impressive, often used informally to express enthusiasm",
+      "type": "shifted_sense",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 203.68,
+      "end": 205.4,
+      "nuance": "While 'wicked' usually means evil or morally wrong, in informal speech (especially in some regions like the UK or Australia), it can mean 'really great' or 'cool.' It’s a playful way to show excitement about something."
+    },
+    {
+      "term": "in the calendar",
+      "senseHere": "here means scheduled or planned, often used to confirm an event or commitment",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 209.71,
+      "end": 210.56,
+      "nuance": "Saying something is 'in the calendar' means it’s officially scheduled or planned. It’s a casual way to confirm that an event, meeting, or activity is set to happen."
+    },
+    {
+      "term": "rugby league",
+      "senseHere": "here refers to a specific form of rugby football, popular in Australia and some other countries",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 210.56,
+      "end": 213.81,
+      "nuance": "Rugby league is a fast-paced team sport similar to rugby union but with different rules and fewer players. It’s especially popular in Australia, England, and parts of the Pacific. The term 'league' distinguishes it from other rugby codes."
+    },
+    {
+      "term": "ice hockey",
+      "senseHere": "here refers to a team sport played on ice, where players use sticks to hit a puck into the opponent's goal",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 215.46,
+      "end": 216.91,
+      "nuance": "Ice hockey is a popular winter sport, especially in countries like Canada, the US, and Northern Europe. It’s played on an ice rink, and the objective is to score goals by hitting a puck into the net with a stick."
+    },
+    {
+      "term": "tattooed",
+      "senseHere": "here means permanently marked the skin with ink, often as a form of art or personal expression",
+      "type": "word",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 216.91,
+      "end": 217.94,
+      "nuance": "To tattoo means to create a permanent design on the skin using ink and needles. It’s a common form of body art, and people often get tattoos to express their identity, beliefs, or memories."
+    },
+    {
+      "term": "shoot",
+      "senseHere": "here means 'go ahead' or 'tell me'",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 229.15,
+      "end": 229.983,
+      "nuance": "In everyday conversation, 'shoot' can mean to fire a gun, but in this context, it is a casual way to encourage someone to speak or ask a question. It is often used when you are ready to listen."
+    },
+    {
+      "term": "distill",
+      "senseHere": "here means summarize or capture the essence of something",
+      "type": "shifted_sense",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 249.52,
+      "end": 250.353,
+      "nuance": "Normally, 'distill' means to purify a liquid by heating and cooling. Here, it is used metaphorically to mean reducing something complex (like a style) to its most essential or defining part. You might hear this in creative or analytical contexts, not in everyday conversation."
+    },
+    {
+      "term": "peak signature style",
+      "senseHere": "here means the most distinctive or defining aspect of one's personal style",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 250.353,
+      "end": 251.97,
+      "nuance": "This phrase combines 'peak' (the highest point) and 'signature style' (a unique, recognizable way of doing something). It suggests the most iconic or representative element of someone's fashion or creative expression. You might hear this in interviews about personal branding or fashion."
+    },
+    {
+      "term": "high waisted pants",
+      "senseHere": "here means pants that sit above the natural waistline",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 253.28,
+      "end": 255.3,
+      "nuance": "High-waisted pants are designed to sit above the hips, often near the navel, rather than at the natural waist. This style is popular in fashion for its flattering fit and retro appeal. The term is specific to clothing and is commonly used in fashion discussions."
+    },
+    {
+      "term": "extravagant",
+      "senseHere": "here means excessively elaborate, luxurious, or expensive",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 261.059,
+      "end": 262.64,
+      "nuance": "While 'extravagant' can describe spending or behavior that is excessive, here it specifically refers to clothing or an outfit that is overly elaborate, luxurious, or costly. It is often used in fashion or lifestyle contexts to describe something that stands out for its opulence."
+    },
+    {
+      "term": "method",
+      "senseHere": "here means method acting, a technique where actors deeply embody their roles",
+      "type": "shifted_sense",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 265.21,
+      "end": 266.77,
+      "nuance": "In everyday language, 'method' refers to a way of doing something. Here, it specifically refers to 'method acting,' a well-known technique in acting where performers immerse themselves emotionally and psychologically in their characters. This term is widely recognized in the film and theater industries."
+    },
+    {
+      "term": "method actor",
+      "senseHere": "here means an actor who uses method acting techniques",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 268.931,
+      "end": 270.63,
+      "nuance": "A 'method actor' is someone who practices method acting, a technique that involves deeply identifying with a character's emotions and experiences. This term is specific to the acting profession and is often discussed in interviews or critiques of performances."
+    },
+    {
+      "term": "acting coach",
+      "senseHere": "here means a professional who trains and guides actors to improve their performances",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "technical",
+      "start": 282.96,
+      "end": 284.87,
+      "nuance": "An 'acting coach' is someone who works with actors to refine their skills, develop characters, and prepare for roles. This term is specific to the performing arts and is commonly used in discussions about acting techniques or career development in film and theater."
+    },
+    {
+      "term": "dialect coach",
+      "senseHere": "here means a specialist who trains actors to speak with a specific accent or dialect",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 284.87,
+      "end": 286.76,
+      "nuance": "A dialect coach works behind the scenes in film and theatre. They don’t teach general acting but focus on how an actor sounds — helping them adopt the right accent, pronunciation, and speech patterns for a role. You’d rarely hear this term outside of acting or voice work."
+    },
+    {
+      "term": "movement coach",
+      "senseHere": "here means a specialist who trains actors in physical movement and body language for a role",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 284.87,
+      "end": 286.76,
+      "nuance": "A movement coach helps actors control how they move — posture, gestures, even how they walk. This is especially important for roles that require a distinct physical presence, like a historical figure or a character with a unique way of moving. The term is specific to acting and performance training."
+    },
+    {
+      "term": "makeovers",
+      "senseHere": "here means dramatic changes to a person's appearance, especially for an acting role",
+      "type": "shifted_sense",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 290.44,
+      "end": 291.71,
+      "nuance": "In everyday life, a makeover usually means a beauty or style change. Here, it refers to the physical transformations actors go through for roles — like changing their hair, makeup, or even body shape. These changes are often extreme and done for the camera, not just personal style."
+    },
+    {
+      "term": "a lotta",
+      "senseHere": "here means a lot of, an informal contraction of 'a lot of'",
+      "type": "slang",
+      "difficulty": "a2",
+      "register": "informal",
+      "start": 298.81,
+      "end": 301.7,
+      "nuance": "This is a very casual way to say 'a lot of.' It’s common in spoken English, especially in relaxed conversations, but you wouldn’t use it in formal writing or professional settings. The spelling with an apostrophe shows it’s a spoken shortcut, not a standard word."
+    },
+    {
+      "term": "'60s",
+      "senseHere": "here refers to the 1960s decade",
+      "type": "abbreviation",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 325.35,
+      "end": 326.95,
+      "nuance": "This is a common way to refer to a decade, especially in casual conversation. The apostrophe replaces the '19' of '1960s', and the 's' indicates the plural. You might also see it written as 'the 60s' without the apostrophe, but the meaning is the same."
+    },
+    {
+      "term": "blowing your mind",
+      "senseHere": "here means impressing you greatly or amazing you",
+      "type": "idiom",
+      "difficulty": "b2",
+      "register": "informal",
+      "start": 342.93,
+      "end": 344.92,
+      "nuance": "This idiom means that something is so impressive, surprising, or innovative that it feels like your mind is being 'blown'—as if your thoughts are being scattered by the impact. It’s a very informal and enthusiastic way to say that you’re deeply impressed or astonished by someone or something."
+    },
+    {
+      "term": "go-to",
+      "senseHere": "here means favorite or preferred",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 362.04,
+      "end": 363.54,
+      "nuance": "Your 'go-to' is the thing you always choose or rely on in a particular situation. It can be a drink, a meal, a song, or even a person you trust. The phrase is very common in casual conversation."
+    },
+    {
+      "term": "G&T",
+      "senseHere": "here means gin and tonic, a cocktail",
+      "type": "abbreviation",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 363.54,
+      "end": 364.373,
+      "nuance": "G&T stands for gin and tonic, a popular mixed drink made with gin and tonic water, usually served with ice and a slice of lime. It is a common abbreviation in bars and casual conversation about drinks."
+    },
+    {
+      "term": "vice",
+      "senseHere": "here means a small personal indulgence or guilty pleasure",
+      "type": "shifted_sense",
+      "difficulty": "b2",
+      "register": "informal",
+      "start": 364.373,
+      "end": 365.73,
+      "nuance": "Normally, 'vice' refers to immoral or wicked behavior, like gambling or smoking. In this context, it means a small, often harmless habit or indulgence that someone enjoys, even if it is not the healthiest choice. It is a lighthearted way to talk about personal preferences."
+    },
+    {
+      "term": "see the light of day",
+      "senseHere": "here means be revealed or made public",
+      "type": "idiom",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 378.85,
+      "end": 381.84,
+      "nuance": "Normally, 'see the light of day' literally means to be exposed to daylight. As an idiom, it means something that should remain hidden or secret is revealed or made public. It’s often used for things that are embarrassing, illegal, or best kept private."
+    },
+    {
+      "term": "was a thing",
+      "senseHere": "here means was popular or fashionable",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 382.99,
+      "end": 384.56,
+      "nuance": "This is a casual way to say something was popular, trendy, or commonly done at a certain time. It’s often used in conversation to talk about past trends or habits."
+    },
+    {
+      "term": "heading",
+      "senseHere": "here means going or traveling to a place",
+      "type": "shifted_sense",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 385.79,
+      "end": 387.09,
+      "nuance": "While 'heading' can mean the direction something is moving, in this context it means traveling toward a destination. It’s a common way to ask where someone is going, especially in travel conversations."
+    },
+    {
+      "term": "got back",
+      "senseHere": "here means returned from a trip",
+      "type": "phrasal_verb",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 391.12,
+      "end": 393.42,
+      "nuance": "To 'get back' means to return to a place after being away. It’s a common way to talk about coming home or returning from a trip. The phrasal verb is often used in casual conversation."
+    },
+    {
+      "term": "dying to",
+      "senseHere": "here means really wanting or eager to do something",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "informal",
+      "start": 402.64,
+      "end": 404.03,
+      "nuance": "This is a casual way to say you really want to do something or go somewhere. It’s stronger than just 'want' and shows a lot of enthusiasm or desire."
+    },
+    {
+      "term": "starstruck",
+      "senseHere": "here means feeling very excited or overwhelmed by meeting a famous person",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 408.53,
+      "end": 411.02,
+      "nuance": "Being 'starstruck' means feeling nervous, excited, or overwhelmed because you’re meeting someone famous. It’s a common feeling when fans meet celebrities or public figures."
+    },
+    {
+      "term": "Feel free",
+      "senseHere": "here means you are welcome or encouraged to do something",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 423.553,
+      "end": 424.51,
+      "nuance": "This is a polite way to give someone permission or encouragement to do something. It doesn’t literally mean they have freedom; it’s a friendly way to say, 'Go ahead.'"
+    },
+    {
+      "term": "on set",
+      "senseHere": "here means at the filming location",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "technical",
+      "start": 436.55,
+      "end": 438.27,
+      "nuance": "In filmmaking, 'set' refers to the place where a scene is being filmed. 'On set' means physically present at that location. This is a common term in the film industry, not everyday conversation."
+    },
+    {
+      "term": "rolls of film",
+      "senseHere": "here means reels of photographic film used in movie cameras",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 439.8,
+      "end": 441.46,
+      "nuance": "A 'roll of film' is a spool of light-sensitive material used in traditional film cameras. In digital filmmaking, this term is still used metaphorically to refer to a completed segment of filming. This is specific to the film industry."
+    },
+    {
+      "term": "concluded our interview",
+      "senseHere": "here means finished our formal conversation",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 446.39,
+      "end": 447.63,
+      "nuance": "To 'conclude' something means to bring it to an end. In this context, it specifically refers to finishing a formal discussion or interview. This is a common way to describe the end of a professional conversation."
+    }
+  ],
+  "review": {
+    "kept": 65,
+    "removed": [
+      {
+        "term": "brunch",
+        "reason": "tekrar (otomatik, bölümler arası)"
+      },
+      {
+        "term": "brunch",
+        "reason": "tekrar (otomatik, bölümler arası)"
+      },
+      {
+        "term": "real life people",
+        "reason": "tekrar (otomatik, bölümler arası)"
+      },
+      {
+        "term": "73 Questions",
+        "reason": "ÖZEL İSİM: programın/formatın adı, öğretilecek bir ifade değil"
+      },
+      {
+        "term": "come on in",
+        "reason": "TAHMİN EDİLEBİLİR: davet anlamı parçalardan açıkça çıkıyor"
+      },
+      {
+        "term": "favorite",
+        "reason": "ÇOK TEMEL: A1 kelime, hedef kitle zaten biliyor"
+      }
+    ]
+  }
+}

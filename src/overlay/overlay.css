@@ -1,0 +1,589 @@
+/* ReelVocab paneli — sağ üstte, videoyu engellemeyen bir liste.
+ *
+ * 🔴 Altyazı katmanı ve renklendirme YOK. Senkron TAKİP var ama zorlamasız:
+ * aktif madde vurgulanır, kullanıcı listeye dokunursa takip durur.
+ *
+ * Görsel hiyerarşi: madde içeriği en belirgin → eylemler ikincil → uyarılar
+ * üçüncül ama okunur.
+ *
+ * Sınıf adları `rv-` ön ekli: YouTube'un kendi stilleriyle çakışmasın.
+ * Özellikler `!important` ile yazılı, çünkü sayfanın kendi kuralları content
+ * script CSS'ini bastırabiliyor.
+ */
+
+.rv-panel {
+  position: fixed !important;
+  top: 72px !important;
+  right: 16px !important;
+  z-index: 2147482000 !important; /* YouTube'un kendi katmanlarının üstünde */
+
+  box-sizing: border-box !important;
+  width: 360px !important;
+  max-width: calc(100vw - 32px) !important;
+  /* İçerik uzunsa panel değil LİSTE kayar (aşağıda) — panel ekranı taşmasın. */
+  max-height: calc(100vh - 96px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+
+  /* Yarı saydam koyu zemin: arkasındaki video görünmeye devam ediyor ama
+   * metin okunur kalıyor. */
+  background: rgba(17, 20, 24, 0.92) !important;
+  color: #e8eaed !important;
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45) !important;
+
+  font: 13px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif !important;
+  text-align: left !important;
+
+  /* Uzun terim ya da açıklama paneli taşırmasın. */
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+}
+
+/* Sürükleme sırasında metin seçilmesin. */
+.rv-panel.rv-dragging {
+  user-select: none !important;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.55) !important;
+}
+
+/* 🔴 YouTube'un altyazı kabını GİZLEYEN KURAL KALDIRILDI.
+ *
+ * Eski gerekçe "kendi altyazı katmanımızla üst üste biniyor"du. O katman
+ * artefakt kararıyla kapsam dışına alındı: yalnız panel var, çakışacak bir
+ * şey yok. ÖLÇÜLDÜ (19 Eyl 2026): kullanıcı altyazıyla izliyordu, eklentiyi
+ * çalıştırdı, altyazısı kayboldu ve geri gelmedi — bu CSS kuralı kalsaydı
+ * koşum sonundaki geri yükleme de işlemezdi. */
+
+.rv-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 8px !important;
+  padding: 10px 12px !important;
+  cursor: move !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.rv-header-left,
+.rv-header-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+/* ^ ile ✕ arasında belirgin boşluk: yanlış tıklama küçültmek isterken paneli
+ * kapatıyordu. */
+.rv-header-right {
+  gap: 12px !important;
+}
+
+/* Küçültülmüş panel: yalnız başlık satırı kalır, gövde gizlenir. Durum DOM'da
+ * durduğu için açıldığında liste aynen yerinde. */
+.rv-panel.rv-collapsed {
+  max-height: none !important;
+}
+
+.rv-panel.rv-collapsed .rv-body {
+  display: none !important;
+}
+
+.rv-body {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 0 !important;
+}
+
+/* Kullanıcıya dürüst çerçeve — kapatılamaz, her zaman görünür.
+ *
+ * Görsel hiyerarşide ÜÇÜNCÜL: sakin ton, dikkat çekmeyen ama okunur. Alarm
+ * rengi kullanılmıyor; her maddede geçerli olan bir uyarı kırmızıysa iki
+ * koşumda görünmez hale gelir. */
+.rv-notice {
+  padding: 7px 12px !important;
+  color: #a8b0b8 !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  font-size: 11.5px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* ASR uyarısı koşullu ve daha ciddi: kaynağın kendisi bozuk olabilir. Bu
+ * yüzden bir tık daha belirgin (ölçüm: ASR'de %31, senaryoluda %23). */
+.rv-notice-source {
+  color: #f2c14e !important;
+  background: rgba(242, 193, 78, 0.10) !important;
+}
+
+.rv-notice[hidden] {
+  display: none !important;
+}
+
+.rv-badge {
+  padding: 1px 6px !important;
+  color: #9aa0a6 !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-radius: 999px !important;
+  font-size: 11px !important;
+}
+
+.rv-badge[hidden] {
+  display: none !important;
+}
+
+/* ── "takibe dön" ── */
+.rv-follow-row {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 6px 12px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.rv-follow-row[hidden] {
+  display: none !important;
+}
+
+.rv-follow {
+  padding: 3px 10px !important;
+  cursor: pointer !important;
+  color: #8ab4f8 !important;
+  background: rgba(138, 180, 248, 0.12) !important;
+  border: 1px solid rgba(138, 180, 248, 0.35) !important;
+  border-radius: 999px !important;
+  font: inherit !important;
+  font-size: 11.5px !important;
+}
+
+/* ── Kısmi başarısızlık: BELİRGİN ── */
+.rv-failures {
+  padding: 8px 12px 0 !important;
+}
+
+.rv-failures[hidden] {
+  display: none !important;
+}
+
+/* Özet satırına gömülürse fark edilmiyor; ayrı ve uyarı renginde. */
+.rv-failures-line {
+  width: 100% !important;
+  padding: 6px 8px !important;
+  cursor: pointer !important;
+  color: #f2c14e !important;
+  background: rgba(242, 193, 78, 0.12) !important;
+  border: 1px solid rgba(242, 193, 78, 0.30) !important;
+  border-radius: 6px !important;
+  font: inherit !important;
+  font-size: 12px !important;
+  text-align: left !important;
+}
+
+.rv-failures-detail {
+  margin-top: 6px !important;
+  max-height: 120px !important;
+  overflow-y: auto !important;
+}
+
+.rv-failures-detail[hidden] {
+  display: none !important;
+}
+
+.rv-failure {
+  color: #9aa0a6 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace !important;
+  font-size: 10.5px !important;
+}
+
+.rv-failure-note {
+  margin-top: 6px !important;
+  color: #f2c14e !important;
+  font-family: inherit !important;
+  font-size: 11.5px !important;
+}
+
+/* Sabit alt çubuk: liste kaydırılırken kaybolmuyor. `flex-shrink: 0` şart —
+ * yoksa uzun listede çubuk sıkışıp yok oluyor. */
+.rv-footer {
+  flex: 0 0 auto !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+  background: rgba(17, 20, 24, 0.96) !important;
+}
+
+.rv-actions {
+  display: flex !important;
+  gap: 8px !important;
+  padding: 8px 12px !important;
+}
+
+.rv-action {
+  padding: 4px 10px !important;
+  cursor: pointer !important;
+  color: #e8eaed !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  border-radius: 6px !important;
+  font: inherit !important;
+  font-size: 12px !important;
+}
+
+.rv-action:hover {
+  background: rgba(255, 255, 255, 0.16) !important;
+}
+
+.rv-action[disabled] {
+  opacity: 0.6 !important;
+  cursor: default !important;
+}
+
+/* Eylemler: "daha fazla" solda, "yanlış" sağda. Aralarında esnek boşluk var —
+ * yan yana durduklarında karışıyorlardı. */
+.rv-item-actions {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 24px !important;
+  padding: 0 12px 9px !important;
+}
+
+.rv-spacer {
+  flex: 1 1 auto !important;
+}
+
+/* İkincil, yıkıcı olmayan ama bulunabilir eylem: daha küçük ve daha soluk. */
+.rv-report {
+  flex: 0 0 auto !important;
+  padding: 0 !important;
+  cursor: pointer !important;
+  color: #7f8790 !important;
+  background: transparent !important;
+  border: 0 !important;
+  font: inherit !important;
+  font-size: 11px !important;
+}
+
+.rv-report:hover {
+  color: #f0a58a !important;
+}
+
+.rv-report[disabled] {
+  color: #6b7280 !important;
+  cursor: default !important;
+}
+
+.rv-title {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+}
+
+.rv-icon {
+  flex: 0 0 auto !important;
+  width: 24px !important;
+  height: 24px !important;
+  padding: 0 !important;
+  cursor: pointer !important;
+  color: #e8eaed !important;
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 6px !important;
+  font: inherit !important;
+  line-height: 1 !important;
+}
+
+.rv-icon:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+
+.rv-status {
+  display: flex !important;
+  align-items: baseline !important;
+  gap: 8px !important;
+  padding: 8px 12px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.rv-status-text {
+  color: #cfd3d8 !important;
+  font-size: 12px !important;
+}
+
+/* Ham hata sınıfı: İKİNCİL bilgi, küçük punto, sağda. */
+.rv-status-code {
+  margin-left: auto !important;
+  flex: 0 0 auto !important;
+  color: #7f8790 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace !important;
+  font-size: 10px !important;
+}
+
+.rv-status-code[hidden] {
+  display: none !important;
+}
+
+/* ── Önizleme ve ana düğme ── */
+.rv-preview {
+  padding: 8px 12px !important;
+  color: #9aa0a6 !important;
+  font-size: 12px !important;
+}
+
+.rv-preview[hidden] {
+  display: none !important;
+}
+
+.rv-primary-row {
+  padding: 4px 12px 10px !important;
+}
+
+.rv-primary-row[hidden] {
+  display: none !important;
+}
+
+/* İşlemi başlatan TEK yer. Belirgin: pahalı bir eylem (~$0.04, ~60 sn) ve
+ * kazara tıklanmasın diye eklenti ikonundan buraya taşındı. */
+.rv-primary {
+  width: 100% !important;
+  padding: 8px 12px !important;
+  cursor: pointer !important;
+  color: #0f1419 !important;
+  background: #8ab4f8 !important;
+  border: 0 !important;
+  border-radius: 6px !important;
+  font: inherit !important;
+  font-weight: 600 !important;
+}
+
+.rv-primary:hover:not([disabled]) {
+  background: #a6c8fa !important;
+}
+
+/* Koşum sürerken devre dışı ve GÖRSEL OLARAK öyle: çift tetikleme koruması. */
+.rv-primary[disabled] {
+  cursor: default !important;
+  color: #9aa0a6 !important;
+  background: rgba(255, 255, 255, 0.10) !important;
+}
+
+/* ── Boş sonuç ── */
+.rv-empty {
+  padding: 14px 12px !important;
+}
+
+.rv-empty[hidden] {
+  display: none !important;
+}
+
+.rv-empty-title {
+  color: #e8eaed !important;
+  font-weight: 600 !important;
+}
+
+.rv-empty-detail {
+  margin-top: 4px !important;
+  color: #9aa0a6 !important;
+  font-size: 12px !important;
+}
+
+/* Kaydırma burada: liste büyüyor, panel sabit kalıyor. */
+.rv-list {
+  flex: 1 1 auto !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain !important;
+  margin: 0 !important;
+  padding: 4px 0 !important;
+  list-style: none !important;
+}
+
+.rv-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  border-left: 3px solid transparent !important;
+}
+
+/* Aktif madde: sol kenarda renkli çizgi + hafif zemin. Aktif madde YOKSA
+ * hiçbir şey vurgulanmıyor — vurgu bir iddia, boşa atılmıyor. */
+.rv-item.rv-item-active {
+  border-left-color: #8ab4f8 !important;
+  background: rgba(138, 180, 248, 0.10) !important;
+}
+
+/* Maddenin TAMAMI tıklanabilir: sahneye atlama. Keşfedilebilir olması için
+ * imleç pointer, hover'da zemin değişiyor ve ipucu beliriyor. */
+.rv-item-main {
+  display: block !important;
+  width: 100% !important;
+  padding: 9px 12px 6px !important;
+  cursor: pointer !important;
+  color: inherit !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  font: inherit !important;
+  text-align: left !important;
+}
+
+.rv-item-main:hover {
+  background: rgba(255, 255, 255, 0.06) !important;
+}
+
+.rv-item-head {
+  display: flex !important;
+  align-items: baseline !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
+}
+
+/* Zaman damgası SAĞDA ve soluk: ikincil bilgi, terimle yarışmıyor. */
+.rv-time {
+  flex: 0 0 auto !important;
+  color: #8b9198 !important;
+  font-variant-numeric: tabular-nums !important;
+  font-size: 11.5px !important;
+}
+
+/* Maddenin en belirgin öğesi. */
+.rv-term {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 13.5px !important;
+}
+
+.rv-sense {
+  display: block !important;
+  margin-top: 3px !important;
+  color: #cfd3d8 !important;
+}
+
+/* Hover'da beliren ipucu: davranışı söyler, yer kaplamaz. */
+.rv-hint {
+  display: block !important;
+  margin-top: 4px !important;
+  color: #8ab4f8 !important;
+  font-size: 11px !important;
+  opacity: 0 !important;
+  transition: opacity 120ms ease-in-out !important;
+}
+
+.rv-item-main:hover .rv-hint,
+.rv-item-main:focus-visible .rv-hint {
+  opacity: 1 !important;
+}
+
+.rv-more {
+  padding: 0 !important;
+  cursor: pointer !important;
+  color: #8ab4f8 !important;
+  background: transparent !important;
+  border: 0 !important;
+  font: inherit !important;
+  font-size: 12px !important;
+}
+
+/* `nuance` ölçülmüş biçimde UZUN (3-4 cümle): varsayılan kapalı. */
+.rv-nuance {
+  margin: 0 12px 9px !important;
+  padding: 8px !important;
+  color: #cfd3d8 !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 6px !important;
+  font-size: 12px !important;
+}
+
+.rv-nuance[hidden] {
+  display: none !important;
+}
+
+.rv-summary {
+  padding: 8px 12px 0 !important;
+  color: #9aa0a6 !important;
+  font-size: 12px !important;
+}
+
+.rv-summary[hidden] {
+  display: none !important;
+}
+
+/* ── Vitrin (karar 8) ──────────────────────────────────────────────────────
+ *
+ * "gözden geçirildi" rozeti vitrin maddelerini BYOK maddelerinden ayırıyor:
+ * ilki insan kapısından geçti, ikincisi geçmedi. Yeşil ton bilinçli — uyarı
+ * değil, güvence; ama yine küçük, maddelerle yarışmıyor. */
+.rv-badge-reviewed {
+  color: #81c995 !important;
+  background: rgba(129, 201, 149, 0.12) !important;
+  cursor: help !important;
+}
+
+.rv-notice-reviewed {
+  color: #81c995 !important;
+  background: rgba(129, 201, 149, 0.08) !important;
+}
+
+/* İkincil eylem: bağlantı görünümünde, ana düğmeyle yarışmayan. */
+.rv-secondary-row {
+  padding: 0 12px 10px !important;
+}
+
+.rv-secondary-row[hidden] {
+  display: none !important;
+}
+
+.rv-secondary {
+  padding: 0 !important;
+  cursor: pointer !important;
+  color: #8ab4f8 !important;
+  background: transparent !important;
+  border: 0 !important;
+  font: inherit !important;
+  font-size: 12px !important;
+  text-decoration: underline !important;
+  text-align: left !important;
+}
+
+/* ── Anahtarsız + vitrin dışı video ── */
+.rv-nokey {
+  padding: 12px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+
+.rv-nokey[hidden] {
+  display: none !important;
+}
+
+.rv-nokey-intro {
+  color: #e8eaed !important;
+  font-weight: 600 !important;
+}
+
+.rv-nokey-label {
+  color: #9aa0a6 !important;
+  font-size: 12px !important;
+}
+
+.rv-nokey-list {
+  margin: 0 !important;
+  padding: 0 0 0 16px !important;
+}
+
+.rv-nokey-list a {
+  color: #8ab4f8 !important;
+  text-decoration: none !important;
+}
+
+.rv-nokey-list a:hover {
+  text-decoration: underline !important;
+}
+
+/* Bağlantı ve "ücretli hesap" notu ALT ALTA: yan yana dururken not
+   bağlantının devamı gibi okunuyordu. */
+.rv-nokey-byok {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 2px !important;
+}
+
+.rv-nokey-paid,
+.rv-nokey-note {
+  color: #7f8790 !important;
+  font-size: 11.5px !important;
+}

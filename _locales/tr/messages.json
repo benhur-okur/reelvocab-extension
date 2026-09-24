@@ -1,0 +1,414 @@
+{
+  "extName": {
+    "message": "ReelVocab"
+  },
+  "extDescription": {
+    "message": "Anlamı kelimelerinden çıkarılamayan YouTube ifadelerini açıklar. Örnek videolar ücretsiz; diğerleri Mistral API anahtarı ister."
+  },
+  "panelDisclaimer": {
+    "message": "Bu açıklamalar otomatik üretildi; sahnedeki anlam yanlış olabilir."
+  },
+  "panelReviewedNote": {
+    "message": "Otomatik üretildi, elle gözden geçirildi."
+  },
+  "panelBadgeCached": {
+    "message": "önbellekten"
+  },
+  "panelBadgeReviewed": {
+    "message": "gözden geçirildi"
+  },
+  "panelBadgeReviewedTitle": {
+    "message": "Bu liste yayından önce elle incelendi; yanlış ya da uydurma bulunan maddeler çıkarıldı."
+  },
+  "panelCollapse": {
+    "message": "Paneli küçült"
+  },
+  "panelExpand": {
+    "message": "Paneli büyüt"
+  },
+  "panelClose": {
+    "message": "Paneli kapat"
+  },
+  "panelFollowBack": {
+    "message": "↓ takibe dön"
+  },
+  "panelCopy": {
+    "message": "kopyala"
+  },
+  "panelCopyTitle": {
+    "message": "Maddeleri JSON olarak panoya kopyala"
+  },
+  "panelCopied": {
+    "message": "kopyalandı ✓"
+  },
+  "panelCopyFailed": {
+    "message": "kopyalanamadı"
+  },
+  "itemGoTitle": {
+    "message": "Bu sahneye git"
+  },
+  "itemGoHint": {
+    "message": "▶ sahneye git"
+  },
+  "itemMore": {
+    "message": "daha fazla"
+  },
+  "itemLess": {
+    "message": "daha az"
+  },
+  "itemReport": {
+    "message": "yanlış"
+  },
+  "itemReportTitle": {
+    "message": "Bu maddeyi yanlış olarak işaretle (yalnız bu tarayıcıda kaydedilir)"
+  },
+  "itemReportSaved": {
+    "message": "kaydedildi ✓"
+  },
+  "itemReportFailed": {
+    "message": "kaydedilemedi"
+  },
+  "buttonStart": {
+    "message": "Başlat"
+  },
+  "buttonProcessing": {
+    "message": "İşleniyor…"
+  },
+  "buttonReprocess": {
+    "message": "Yeniden işle"
+  },
+  "buttonPrepare": {
+    "message": "Bu videoyu hazırla"
+  },
+  "buttonOpenSettings": {
+    "message": "Ayar sayfasını aç"
+  },
+  "buttonReprocessOwnKey": {
+    "message": "kendi anahtarınızla yeniden işleyin"
+  },
+  "noKeyIntro": {
+    "message": "Bu video henüz işlenmemiş."
+  },
+  "noKeyShowcaseLabel": {
+    "message": "Anahtarsız deneyebileceğiniz örnek videolar:"
+  },
+  "noKeyByok": {
+    "message": "Kendi anahtarınızla herhangi bir videoyu işleyin"
+  },
+  "noKeyPaid": {
+    "message": "Ücretli bir Mistral hesabı gerekir."
+  },
+  "noKeyLater": {
+    "message": "Ücretsiz kullanım seçeneği üzerinde çalışılıyor."
+  },
+  "statusIdle": {
+    "message": "hazır"
+  },
+  "statusLoading": {
+    "message": "Yükleniyor…"
+  },
+  "statusFetchingCaptions": {
+    "message": "Altyazı çekiliyor…"
+  },
+  "statusReady": {
+    "message": "Hazır. İşlemi başlatmak için düğmeye basın."
+  },
+  "statusBusy": {
+    "message": "Başka bir video işleniyor. O bitince bu video için başlatabilirsiniz."
+  },
+  "statusNeedsKey": {
+    "message": "Bu video için anahtar gerekiyor."
+  },
+  "statusNotPrepared": {
+    "message": "Bu video henüz hazırlanmadı."
+  },
+  "statusProcessing": {
+    "message": "İşleniyor… bölüm $CURRENT$/$TOTAL$",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "statusDone": {
+    "message": "Bitti."
+  },
+  "statusDonePartial": {
+    "message": "Bitti — işlenemeyen bölüm: $FAILED$/$TOTAL$",
+    "placeholders": {
+      "failed": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "statusFromCache": {
+    "message": "Önbellekten yüklendi — model çağrısı yapılmadı."
+  },
+  "statusFatalPartial": {
+    "message": "Listedeki kısmi sonuç kaydedilmedi."
+  },
+  "statusNoCaptions": {
+    "message": "Bu videoda altyazı bulunamadı."
+  },
+  "failureNotePartial": {
+    "message": "Kısmi sonuç kaydedilmedi. Tam sonuç için “Yeniden işle”ye basın."
+  },
+  "failuresSummary": {
+    "message": "⚠ İşlenemeyen bölüm: $COUNT$ — ayrıntı için tıklayın",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "failureLine": {
+    "message": "Bölüm $INDEX$: $ERROR$",
+    "placeholders": {
+      "index": {
+        "content": "$1"
+      },
+      "error": {
+        "content": "$2"
+      }
+    }
+  },
+  "failureChannel": {
+    "message": "Eklentinin arka plan sürecine ulaşılamadı."
+  },
+  "asrNote": {
+    "message": "Kaynak otomatik altyazı: metin yanlış duyulmuş olabilir, maddeler de öyle."
+  },
+  "sourceTrackAuto": {
+    "message": "Kaynak: $TRACK$ · otomatik",
+    "placeholders": {
+      "track": {
+        "content": "$1"
+      }
+    }
+  },
+  "sourceTrackManual": {
+    "message": "Kaynak: $TRACK$ · manuel",
+    "placeholders": {
+      "track": {
+        "content": "$1"
+      }
+    }
+  },
+  "sourceAuto": {
+    "message": "Kaynak: otomatik altyazı"
+  },
+  "sourceManual": {
+    "message": "Kaynak: manuel altyazı"
+  },
+  "summaryItems": {
+    "message": "Madde: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryRejected": {
+    "message": "Elenen: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryMoved": {
+    "message": "Taşınan: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryDuplicates": {
+    "message": "Gizlenen tekrar: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryCalls": {
+    "message": "Çağrı: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summarySeconds": {
+    "message": "$COUNT$ sn",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryReviewRemoved": {
+    "message": "Gözden geçirmede çıkarılan: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewSegments": {
+    "message": "Altyazı satırı: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewSections": {
+    "message": "İşlenecek bölüm: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "emptyTitle": {
+    "message": "Bu videoda işaretlenecek ifade bulunamadı"
+  },
+  "emptyDetail": {
+    "message": "Ölçüt, anlamı kelimelerinden tahmin edilemeyen ifadeler; her videoda bulunmayabilir."
+  },
+  "emptyDetailRejected": {
+    "message": "Modelin ürettiği madde: $PRODUCED$; üretim sonrası kapılarda elenen: $REJECTED$ (uydurma yüzey biçimi, cümle parçası, özel isim gibi).",
+    "placeholders": {
+      "produced": {
+        "content": "$1"
+      },
+      "rejected": {
+        "content": "$2"
+      }
+    }
+  },
+  "captionErrNoPlayerResponse": {
+    "message": "YouTube oynatıcı verisi okunamadı. Sayfayı yenileyip tekrar deneyin."
+  },
+  "captionErrNoCaptionTracks": {
+    "message": "Bu videoda altyazı yok, işlenecek metin bulunamadı."
+  },
+  "captionErrSourceNotEnglish": {
+    "message": "Bu videonun kaynak dili İngilizce değil. Eklenti yalnız İngilizce altyazıda çalışıyor."
+  },
+  "captionErrTriggerFailed": {
+    "message": "Altyazı isteği tetiklenemedi. Sayfayı yenileyip tekrar deneyin."
+  },
+  "captionErrEmptyBody": {
+    "message": "YouTube boş yanıt döndürdü. Kısa bir süre bekleyip tekrar deneyin."
+  },
+  "captionErrFetchFailed": {
+    "message": "Altyazı indirilemedi. Bağlantınızı kontrol edip tekrar deneyin."
+  },
+  "captionErrParseFailed": {
+    "message": "Altyazı biçimi tanınmadı. YouTube biçimi değişmiş olabilir."
+  },
+  "captionErrRateLimited": {
+    "message": "YouTube çok fazla istek aldı ve bir süre altyazı vermiyor. Yaklaşık bir dakika bekleyin."
+  },
+  "captionErrStalePlayerResponse": {
+    "message": "Sayfa verisi başka bir videoya ait. Sayfayı yenileyip tekrar deneyin."
+  },
+  "captionErrNotWatchPage": {
+    "message": "Bir video sayfası açın."
+  },
+  "captionErrGeneric": {
+    "message": "Altyazı alınamadı."
+  },
+  "annotateErrNoApiKey": {
+    "message": "Mistral API anahtarı girilmemiş. Eklenti ayarlarından anahtarınızı ekleyin."
+  },
+  "annotateErrApiError": {
+    "message": "Sağlayıcıya ulaşılamadı ya da istek reddedildi."
+  },
+  "annotateErrRateLimited": {
+    "message": "Anahtarınızın hız sınırına takıldı."
+  },
+  "annotateErrInvalidResponse": {
+    "message": "Modelin yanıtı beklenen biçimde değil."
+  },
+  "annotateErrModelNotInTier": {
+    "message": "Bu model anahtarınızın planında yok."
+  },
+  "annotateErrUnknownModel": {
+    "message": "İstenen model izinli listede yok."
+  },
+  "annotateErrUnknownModelAllowed": {
+    "message": "İstenen model izinli listede yok. İzinli: $MODELS$.",
+    "placeholders": {
+      "models": {
+        "content": "$1"
+      }
+    }
+  },
+  "annotateErrPermissionMissing": {
+    "message": "Mistral erişim izni verilmemiş — ayar sayfasında anahtarı yeniden kaydedin."
+  },
+  "annotateErrGeneric": {
+    "message": "Bölüm işlenemedi."
+  },
+  "optionsTitle": {
+    "message": "ReelVocab ayarları"
+  },
+  "optionsLeadFree": {
+    "message": "Örnek videoları anahtarsız deneyebilirsiniz."
+  },
+  "optionsLeadKey": {
+    "message": "Kendi anahtarınız yalnız diğer videolar için gerekir."
+  },
+  "optionsShowcaseLabel": {
+    "message": "Örnek videolar"
+  },
+  "optionsKeyLabel": {
+    "message": "Mistral API anahtarı"
+  },
+  "optionsKeyWhere": {
+    "message": "Anahtarı şu adresten alabilirsiniz:"
+  },
+  "optionsKeyPaid": {
+    "message": "Ücretli (ödeme yöntemi tanımlı) bir hesap gerekir:"
+  },
+  "optionsKeyPaidWhy": {
+    "message": "ücretsiz hesabın anahtarı eklentinin kullandığı modellere erişemiyor."
+  },
+  "optionsKeyStorage": {
+    "message": "Anahtar yalnız bu tarayıcıda saklanır ve yalnız Mistral'e (api.mistral.ai) gönderilir."
+  },
+  "optionsKeyDelete": {
+    "message": "Silmek için alanı boş bırakıp kaydedin."
+  },
+  "optionsSave": {
+    "message": "Kaydet"
+  },
+  "optionsStatusReadFailed": {
+    "message": "Kayıtlı anahtar okunamadı."
+  },
+  "optionsStatusDeleted": {
+    "message": "Anahtar silindi, Mistral erişim izni geri alındı."
+  },
+  "optionsStatusDeletedPermissionKept": {
+    "message": "Anahtar silindi; Mistral erişim izni geri alınamadı."
+  },
+  "optionsStatusPermissionDenied": {
+    "message": "Anahtar kaydedilmedi: Mistral erişim izni verilmedi. Anahtar yalnız api.mistral.ai'ye gönderilir; bunun için bu izin gerekiyor."
+  },
+  "optionsStatusSaved": {
+    "message": "Kaydedildi."
+  },
+  "optionsStatusSaveFailed": {
+    "message": "Kaydedilemedi."
+  }
+}

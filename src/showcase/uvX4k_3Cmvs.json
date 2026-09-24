@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "videoId": "uvX4k_3Cmvs",
+  "title": "Game of Thrones scene",
+  "sourceKind": "asr",
+  "model": "mistral-large-2512",
+  "promptVersion": 6,
+  "processedAt": "2026-09-21T17:46:31.216Z",
+  "items": [
+    {
+      "term": "confess",
+      "senseHere": "here means admit to a wrongdoing, especially in a religious or legal context",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 2.56,
+      "end": 6.24,
+      "nuance": "While 'confess' can simply mean admitting something, in this context it carries a heavier meaning. It implies admitting to a serious fault, crime, or sin, often in a formal or religious setting. The speaker is not just sharing information but seeking forgiveness or judgment."
+    },
+    {
+      "term": "let",
+      "senseHere": "here means allowed or permitted, but with a sense of regret or missed opportunity",
+      "type": "shifted_sense",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 25.519,
+      "end": 29.519,
+      "nuance": "In this context, 'let' is used to express a wish that something had happened differently. The speaker is saying they regret not allowing Stannis to kill everyone, implying a strong sense of frustration or anger. Normally, 'let' just means to allow something to happen."
+    },
+    {
+      "term": "admit",
+      "senseHere": "here means acknowledge or confess to something, often reluctantly",
+      "type": "word",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 48.16,
+      "end": 51.44,
+      "nuance": "While 'admit' can mean simply acknowledging a fact, in this context it carries the weight of confessing to a serious accusation. The speaker is not just stating a fact but accepting responsibility or guilt for an action, often with hesitation or reluctance."
+    },
+    {
+      "term": "dwarf",
+      "senseHere": "here refers to a person of unusually short stature, but used as a term of self-deprecation or societal prejudice",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 58.96,
+      "end": 61.44,
+      "nuance": "In everyday language, 'dwarf' describes a person with a medical condition causing short stature. Here, the speaker uses it to highlight societal prejudice and personal struggle, framing it as a lifelong burden rather than just a physical trait. Be cautious: this term can be sensitive and is often avoided in casual conversation."
+    },
+    {
+      "term": "in your defense",
+      "senseHere": "here means presenting arguments or reasons to justify your actions or prove your innocence",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 71.36,
+      "end": 73.36,
+      "nuance": "This phrase is used in legal or formal contexts to ask someone to explain or justify their actions. It implies that the person is being accused or judged and needs to provide reasons to support their position or prove their innocence."
+    },
+    {
+      "term": "vicious bastard",
+      "senseHere": "here means a cruel and despicable person, often used as an insult",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "vulgar",
+      "start": 82.159,
+      "end": 85.84,
+      "nuance": "The word 'bastard' originally referred to a person born out of wedlock, but in modern usage, it is a strong insult meaning someone who is cruel or despicable. 'Vicious' emphasizes their cruel nature. This phrase is often used in anger or frustration to describe someone truly hated."
+    },
+    {
+      "term": "gladly give my life",
+      "senseHere": "here means willingly sacrifice oneself, often for a cause or revenge",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 101.6,
+      "end": 104.799,
+      "nuance": "This phrase expresses a strong willingness to die for something or someone, often out of love, hatred, or a sense of justice. It is dramatic and suggests deep emotion, not a casual or everyday sentiment."
+    },
+    {
+      "term": "trial by combat",
+      "senseHere": "here means a legal duel to determine guilt or innocence, decided by victory in battle",
+      "type": "phrase",
+      "difficulty": "c1",
+      "register": "technical",
+      "start": 125.759,
+      "end": 131,
+      "nuance": "This is a historical or fantasy legal concept where two parties fight, and the winner is deemed innocent by divine or legal judgment. It is not a modern practice but appears in medieval or fictional settings like this one."
+    }
+  ],
+  "review": {
+    "kept": 8,
+    "removed": [
+      {
+        "term": "poisoned",
+        "reason": "TAHMİN EDİLEBİLİR: düz 'zehirledi' anlamı; model shifted_sense etiketlemiş ama anlam kaymamış"
+      }
+    ]
+  }
+}

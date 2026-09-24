@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "videoId": "l2NxH4hke_I",
+  "title": "House of Cards — Congress scene",
+  "sourceKind": "asr",
+  "model": "mistral-large-2512",
+  "promptVersion": 6,
+  "processedAt": "2026-09-21T17:32:21.020Z",
+  "items": [
+    {
+      "term": "fellow congressmen",
+      "senseHere": "here means colleagues who are also members of Congress",
+      "type": "phrase",
+      "difficulty": "b1",
+      "register": "neutral",
+      "start": 21.43,
+      "end": 22.419,
+      "nuance": "While 'fellow' simply means 'other people who belong to the same group,' in political contexts like this, it is a formal way to refer to colleagues in the same legislative body. It emphasizes shared membership in Congress."
+    },
+    {
+      "term": "scoundrel",
+      "senseHere": "here means a dishonest or unscrupulous person, often in a position of power",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 24.669,
+      "end": 27.13,
+      "nuance": "A scoundrel is someone who behaves dishonestly or immorally, especially for personal gain. In this context, it is a strong insult directed at a political figure, implying corruption or unethical behavior."
+    },
+    {
+      "term": "the aisle",
+      "senseHere": "here means the political division between parties in Congress",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 34.48,
+      "end": 39.519,
+      "nuance": "In a literal sense, an aisle is a passageway between seats. In politics, 'the aisle' refers to the symbolic divide between opposing parties (e.g., Democrats and Republicans). Saying 'the other side of the aisle' means the opposing political party."
+    },
+    {
+      "term": "miscreant",
+      "senseHere": "here means a person who behaves badly or breaks the law, often used as a strong insult",
+      "type": "word",
+      "difficulty": "c1",
+      "register": "neutral",
+      "start": 45.519,
+      "end": 50.1,
+      "nuance": "A miscreant is someone who behaves immorally or criminally. It is a formal, somewhat old-fashioned word, often used in political or legal contexts to strongly criticize someone’s actions."
+    },
+    {
+      "term": "parliamentary inquiry",
+      "senseHere": "here means a formal request for information or investigation within the rules of a legislative body",
+      "type": "phrase",
+      "difficulty": "c1",
+      "register": "technical",
+      "start": 50.489,
+      "end": 53.26,
+      "nuance": "A parliamentary inquiry is a procedure in legislative bodies (like the U.S. House of Representatives) where members ask questions or request information to clarify rules, procedures, or the status of a matter under discussion. It is a formal part of legislative debate."
+    },
+    {
+      "term": "madam Speaker",
+      "senseHere": "here means a formal title used to address the presiding officer (Speaker) of the House of Representatives, who is a woman",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 50.489,
+      "end": 53.26,
+      "nuance": "In the U.S. House of Representatives, the presiding officer is called the Speaker. If the Speaker is a woman, she is addressed as 'Madam Speaker' as a sign of respect and formality during debates. The male equivalent is 'Mr. Speaker.'"
+    },
+    {
+      "term": "on the floor",
+      "senseHere": "here means physically present in the legislative chamber where debates and votes occur",
+      "type": "idiom",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 75.25,
+      "end": 76.66,
+      "nuance": "In a legislative context, 'the floor' refers to the main area of the chamber where members speak and debate. Being 'on the floor' means being present there. Outside of politics, 'the floor' can mean the physical ground or a level of a building, but here it has a very specific meaning."
+    },
+    {
+      "term": "interest in the matter",
+      "senseHere": "here means a personal or financial stake in the outcome of a legislative decision",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 76.66,
+      "end": 77.89,
+      "nuance": "In politics, having an 'interest in the matter' means you stand to gain or lose something personally or financially from the decision. This is different from just having an opinion; it implies a conflict of interest that could bias your judgment."
+    },
+    {
+      "term": "have the floor",
+      "senseHere": "here means having the right to speak in a formal debate or meeting",
+      "type": "idiom",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 88.2,
+      "end": 91.15,
+      "nuance": "In formal settings like Congress, 'having the floor' means you are the one currently allowed to speak. It is a way of managing who gets to talk and when. Outside of such settings, it doesn’t carry this specific meaning."
+    },
+    {
+      "term": "on my way",
+      "senseHere": "here means traveling to or going to",
+      "type": "phrase",
+      "difficulty": "a2",
+      "register": "neutral",
+      "start": 157.45,
+      "end": 162.16,
+      "nuance": "This phrase means you are currently traveling to a place. It does not literally mean you are walking; it can be used for any form of travel. You might say, 'I'm on my way to work' or 'She's on her way to the airport.'"
+    },
+    {
+      "term": "beheaded",
+      "senseHere": "here means killed by cutting off the head",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 168.93,
+      "end": 173.97,
+      "nuance": "This word describes a violent and specific method of killing someone. It is not a common word in everyday conversation and is usually used in serious or historical contexts, often related to crime or war."
+    },
+    {
+      "term": "this chamber",
+      "senseHere": "here means the group of elected officials in a legislative body, like Congress",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 173.97,
+      "end": 181.86,
+      "nuance": "In government, 'chamber' refers to a room where lawmakers meet, but it also means the group of people who work there. For example, the U.S. Congress has two chambers: the Senate and the House of Representatives. This phrase is specific to political discussions."
+    },
+    {
+      "term": "near the floor",
+      "senseHere": "here means close to being discussed or voted on in a legislative session",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 186.07,
+      "end": 189.31,
+      "nuance": "In a legislative context, 'the floor' refers to the main area where lawmakers debate and vote on issues. Saying something is 'near the floor' means it is almost ready to be discussed or decided by the full group."
+    },
+    {
+      "term": "at large",
+      "senseHere": "here means free and not captured, especially referring to a criminal",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 209.97,
+      "end": 215.879,
+      "nuance": "This phrase describes someone, usually a criminal, who is still free and has not been caught by the police. For example, 'The suspect is still at large.' It is often used in news reports or crime discussions."
+    },
+    {
+      "term": "take a stand",
+      "senseHere": "here means publicly express an opinion or position on an issue",
+      "type": "idiom",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 223.47,
+      "end": 226.26,
+      "nuance": "To 'take a stand' means to make your position clear, especially on a controversial or important issue. It shows that you are willing to defend your beliefs, even if others disagree. For example, 'She took a stand against injustice.'"
+    },
+    {
+      "term": "FDR",
+      "senseHere": "here refers to Franklin D. Roosevelt, the 32nd President of the United States",
+      "type": "abbreviation",
+      "difficulty": "c1",
+      "register": "technical",
+      "start": 226.26,
+      "end": 230.03,
+      "nuance": "FDR stands for Franklin Delano Roosevelt, a U.S. president who served during the Great Depression and World War II. He is often mentioned in discussions about leadership, history, or government policies."
+    },
+    {
+      "term": "declares",
+      "senseHere": "here means officially announces or states something, often in a formal way",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "neutral",
+      "start": 230.03,
+      "end": 233.19,
+      "nuance": "To 'declare' means to make an official or public statement. In government, it often refers to formal decisions, like declaring war or announcing a policy. For example, 'The president declared a state of emergency.'"
+    },
+    {
+      "term": "declaration of war",
+      "senseHere": "here means a formal announcement by a government that a state of war exists with another country",
+      "type": "phrase",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 233.19,
+      "end": 242.28,
+      "nuance": "A 'declaration of war' is an official statement by a country's government that it is entering a state of war with another nation. This is a serious and formal action, usually made by Congress or a similar legislative body in democratic countries."
+    },
+    {
+      "term": "yield",
+      "senseHere": "here means give up the floor in a debate or speech",
+      "type": "word",
+      "difficulty": "b2",
+      "register": "technical",
+      "start": 279.539,
+      "end": 287.69,
+      "nuance": "In everyday language, 'yield' can mean to produce or give way (e.g., yielding to traffic). Here, it is a parliamentary term meaning to stop speaking and allow someone else to take the floor. It’s specific to formal debates or legislative settings."
+    }
+  ],
+  "review": {
+    "kept": 19,
+    "removed": [
+      {
+        "term": "madam Speaker",
+        "reason": "tekrar (otomatik, bölümler arası)"
+      },
+      {
+        "term": "day me",
+        "reason": "ASR: sahnede 'debate me' söyleniyor, model bozuk metne anlam üretmiş (kendisi de transkripsiyon hatası olabileceğini yazmış)"
+      },
+      {
+        "term": "heal",
+        "reason": "ASR: sahnede 'yield' söyleniyor, otomatik altyazı 'heal' yazmış, model buna duygusal iyileşme anlamı üretmiş"
+      }
+    ]
+  }
+}

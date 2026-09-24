@@ -1,0 +1,15 @@
+node_modules/
+dist/
+releases/
+*.zip
+.env
+.env.*
+.DS_Store
+.qwen/
+prompt.txt
+envanter.md
+gercek.txt
+.prompts/
+.out/
+.measure/
+.history/

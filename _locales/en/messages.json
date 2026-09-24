@@ -1,0 +1,463 @@
+{
+  "extName": {
+    "message": "ReelVocab",
+    "description": "Extension name. Brand, do not translate."
+  },
+  "extDescription": {
+    "message": "Explains YouTube expressions whose meaning you can't guess from the words. Try sample videos free; others need a Mistral API key.",
+    "description": "Web Store description. Max 132 characters (checked at build)."
+  },
+  "panelDisclaimer": {
+    "message": "These explanations are machine-generated; the meaning in the scene may be wrong.",
+    "description": "Always-on notice above the item list."
+  },
+  "panelReviewedNote": {
+    "message": "Machine-generated, reviewed by hand.",
+    "description": "Replaces the disclaimer on reviewed sample videos."
+  },
+  "panelBadgeCached": {
+    "message": "cached",
+    "description": "Header badge: result came from local cache."
+  },
+  "panelBadgeReviewed": {
+    "message": "reviewed",
+    "description": "Header badge on sample videos."
+  },
+  "panelBadgeReviewedTitle": {
+    "message": "This list was checked by hand before release; items found wrong or invented were removed.",
+    "description": "Tooltip of the reviewed badge."
+  },
+  "panelCollapse": {
+    "message": "Collapse panel",
+    "description": "Tooltip."
+  },
+  "panelExpand": {
+    "message": "Expand panel",
+    "description": "Tooltip."
+  },
+  "panelClose": {
+    "message": "Close panel",
+    "description": "Tooltip."
+  },
+  "panelFollowBack": {
+    "message": "↓ Follow playback",
+    "description": "Button shown after the user scrolls the list manually."
+  },
+  "panelCopy": {
+    "message": "copy",
+    "description": "Footer action."
+  },
+  "panelCopyTitle": {
+    "message": "Copy items to the clipboard as JSON",
+    "description": "Tooltip."
+  },
+  "panelCopied": {
+    "message": "copied ✓",
+    "description": "Copy succeeded."
+  },
+  "panelCopyFailed": {
+    "message": "copy failed",
+    "description": "Copy failed."
+  },
+  "itemGoTitle": {
+    "message": "Go to this scene",
+    "description": "Tooltip on an item."
+  },
+  "itemGoHint": {
+    "message": "▶ go to scene",
+    "description": "Hint inside an item."
+  },
+  "itemMore": {
+    "message": "more",
+    "description": "Expand the long explanation."
+  },
+  "itemLess": {
+    "message": "less",
+    "description": "Collapse the long explanation."
+  },
+  "itemReport": {
+    "message": "wrong",
+    "description": "Button: mark item as wrong."
+  },
+  "itemReportTitle": {
+    "message": "Mark this item as wrong (saved only in this browser)",
+    "description": "Tooltip. Reports are NOT sent anywhere."
+  },
+  "itemReportSaved": {
+    "message": "saved ✓",
+    "description": "Report stored locally."
+  },
+  "itemReportFailed": {
+    "message": "couldn't save",
+    "description": "Report could not be stored."
+  },
+  "buttonStart": {
+    "message": "Start",
+    "description": "Primary button: start processing."
+  },
+  "buttonProcessing": {
+    "message": "Processing…",
+    "description": "Primary button while running (disabled)."
+  },
+  "buttonReprocess": {
+    "message": "Reprocess",
+    "description": "Primary button after a run."
+  },
+  "buttonPrepare": {
+    "message": "Prepare this video",
+    "description": "Primary button: fetch captions for this video."
+  },
+  "buttonOpenSettings": {
+    "message": "Open settings",
+    "description": "Link to the options page."
+  },
+  "buttonReprocessOwnKey": {
+    "message": "reprocess with your own key",
+    "description": "Small secondary action on sample videos."
+  },
+  "noKeyIntro": {
+    "message": "This video hasn't been processed yet."
+  },
+  "noKeyShowcaseLabel": {
+    "message": "Sample videos you can try without a key:"
+  },
+  "noKeyByok": {
+    "message": "Process any video with your own key",
+    "description": "Link to options."
+  },
+  "noKeyPaid": {
+    "message": "Requires a paid Mistral account.",
+    "description": "Shown under the link, on its own line."
+  },
+  "noKeyLater": {
+    "message": "A free option is in the works."
+  },
+  "statusIdle": {
+    "message": "ready",
+    "description": "Initial status before anything happens."
+  },
+  "statusLoading": {
+    "message": "Loading…"
+  },
+  "statusFetchingCaptions": {
+    "message": "Fetching captions…"
+  },
+  "statusReady": {
+    "message": "Ready. Press the button to start."
+  },
+  "statusBusy": {
+    "message": "Another video is being processed. You can start this one when it finishes."
+  },
+  "statusNeedsKey": {
+    "message": "This video needs an API key."
+  },
+  "statusNotPrepared": {
+    "message": "This video hasn't been prepared yet."
+  },
+  "statusProcessing": {
+    "message": "Processing… section $CURRENT$/$TOTAL$",
+    "description": "Progress.",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "statusDone": {
+    "message": "Done."
+  },
+  "statusDonePartial": {
+    "message": "Done — failed sections: $FAILED$/$TOTAL$",
+    "placeholders": {
+      "failed": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "statusFromCache": {
+    "message": "Loaded from cache — no model call made."
+  },
+  "statusFatalPartial": {
+    "message": "The partial result in the list was not saved.",
+    "description": "Appended after a fatal error message when some items were already shown."
+  },
+  "statusNoCaptions": {
+    "message": "No captions found for this video."
+  },
+  "failureNotePartial": {
+    "message": "Partial result not saved. Press “Reprocess” for the full result.",
+    "description": "Must name the Reprocess button label."
+  },
+  "failuresSummary": {
+    "message": "⚠ Failed sections: $COUNT$ — click for details",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "failureLine": {
+    "message": "Section $INDEX$: $ERROR$",
+    "description": "One failed section.",
+    "placeholders": {
+      "index": {
+        "content": "$1"
+      },
+      "error": {
+        "content": "$2"
+      }
+    }
+  },
+  "failureChannel": {
+    "message": "Couldn't reach the extension's background process.",
+    "description": "A message to the service worker failed."
+  },
+  "asrNote": {
+    "message": "Source is auto-generated captions: the text may be misheard, and so may the items."
+  },
+  "sourceTrackAuto": {
+    "message": "Source: $TRACK$ · auto-generated",
+    "description": "TRACK is YouTube's track name (data).",
+    "placeholders": {
+      "track": {
+        "content": "$1"
+      }
+    }
+  },
+  "sourceTrackManual": {
+    "message": "Source: $TRACK$ · manual",
+    "placeholders": {
+      "track": {
+        "content": "$1"
+      }
+    }
+  },
+  "sourceAuto": {
+    "message": "Source: auto-generated captions"
+  },
+  "sourceManual": {
+    "message": "Source: manual captions"
+  },
+  "summaryItems": {
+    "message": "Items: $COUNT$",
+    "description": "Number-independent on purpose (no plural rules in chrome.i18n).",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryRejected": {
+    "message": "Rejected: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryMoved": {
+    "message": "Moved: $COUNT$",
+    "description": "Items relocated to the correct caption line.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryDuplicates": {
+    "message": "Duplicates hidden: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryCalls": {
+    "message": "Calls: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summarySeconds": {
+    "message": "$COUNT$ s",
+    "description": "Duration in seconds.",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "summaryReviewRemoved": {
+    "message": "Removed in review: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewSegments": {
+    "message": "Caption lines: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "previewSections": {
+    "message": "Sections to process: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "emptyTitle": {
+    "message": "No expressions to mark in this video"
+  },
+  "emptyDetail": {
+    "message": "We only mark expressions whose meaning can't be guessed from their words; not every video has them."
+  },
+  "emptyDetailRejected": {
+    "message": "Items generated by the model: $PRODUCED$; removed by post-generation checks: $REJECTED$ (e.g. invented wording, sentence fragments, proper names).",
+    "placeholders": {
+      "produced": {
+        "content": "$1"
+      },
+      "rejected": {
+        "content": "$2"
+      }
+    }
+  },
+  "captionErrNoPlayerResponse": {
+    "message": "Couldn't read YouTube's player data. Reload the page and try again."
+  },
+  "captionErrNoCaptionTracks": {
+    "message": "This video has no captions, so there's no text to process."
+  },
+  "captionErrSourceNotEnglish": {
+    "message": "This video's source language isn't English. The extension only works with English captions."
+  },
+  "captionErrTriggerFailed": {
+    "message": "Couldn't trigger the caption request. Reload the page and try again."
+  },
+  "captionErrEmptyBody": {
+    "message": "YouTube returned an empty response. Wait a moment and try again."
+  },
+  "captionErrFetchFailed": {
+    "message": "Couldn't download the captions. Check your connection and try again."
+  },
+  "captionErrParseFailed": {
+    "message": "Unrecognized caption format. YouTube may have changed it."
+  },
+  "captionErrRateLimited": {
+    "message": "YouTube received too many requests and is withholding captions for a while. Wait about a minute."
+  },
+  "captionErrStalePlayerResponse": {
+    "message": "The page data belongs to another video. Reload the page and try again."
+  },
+  "captionErrNotWatchPage": {
+    "message": "Open a video page."
+  },
+  "captionErrGeneric": {
+    "message": "Couldn't get the captions.",
+    "description": "Fallback for unknown codes."
+  },
+  "annotateErrNoApiKey": {
+    "message": "No Mistral API key set. Add your key in the extension settings."
+  },
+  "annotateErrApiError": {
+    "message": "Couldn't reach the provider, or the request was rejected."
+  },
+  "annotateErrRateLimited": {
+    "message": "Your key hit its rate limit."
+  },
+  "annotateErrInvalidResponse": {
+    "message": "The model's response wasn't in the expected format."
+  },
+  "annotateErrModelNotInTier": {
+    "message": "This model isn't included in your key's plan."
+  },
+  "annotateErrUnknownModel": {
+    "message": "The requested model isn't on the allowed list."
+  },
+  "annotateErrUnknownModelAllowed": {
+    "message": "The requested model isn't on the allowed list. Allowed: $MODELS$.",
+    "description": "MODELS is a comma-separated list of model ids.",
+    "placeholders": {
+      "models": {
+        "content": "$1"
+      }
+    }
+  },
+  "annotateErrPermissionMissing": {
+    "message": "Mistral access permission not granted — save your key again on the settings page."
+  },
+  "annotateErrGeneric": {
+    "message": "Couldn't process this section.",
+    "description": "Fallback for unknown codes."
+  },
+  "optionsTitle": {
+    "message": "ReelVocab settings",
+    "description": "Page title and heading."
+  },
+  "optionsLeadFree": {
+    "message": "You can try the sample videos without a key."
+  },
+  "optionsLeadKey": {
+    "message": "Your own key is only needed for other videos."
+  },
+  "optionsShowcaseLabel": {
+    "message": "Sample videos"
+  },
+  "optionsKeyLabel": {
+    "message": "Mistral API key"
+  },
+  "optionsKeyWhere": {
+    "message": "Get a key at:",
+    "description": "Followed by the console.mistral.ai link."
+  },
+  "optionsKeyPaid": {
+    "message": "A paid account (with a payment method) is required:",
+    "description": "Bold."
+  },
+  "optionsKeyPaidWhy": {
+    "message": "a free account's key can't access the models this extension uses."
+  },
+  "optionsKeyStorage": {
+    "message": "Your key is stored only in this browser and sent only to Mistral (api.mistral.ai).",
+    "description": "Must stay factually correct."
+  },
+  "optionsKeyDelete": {
+    "message": "To delete it, leave the field empty and save."
+  },
+  "optionsSave": {
+    "message": "Save",
+    "description": "Button."
+  },
+  "optionsStatusReadFailed": {
+    "message": "Couldn't read the saved key."
+  },
+  "optionsStatusDeleted": {
+    "message": "Key deleted; Mistral access permission revoked."
+  },
+  "optionsStatusDeletedPermissionKept": {
+    "message": "Key deleted; couldn't revoke Mistral access permission."
+  },
+  "optionsStatusPermissionDenied": {
+    "message": "Key not saved: Mistral access permission was not granted. Your key is sent only to api.mistral.ai, which requires this permission."
+  },
+  "optionsStatusSaved": {
+    "message": "Saved."
+  },
+  "optionsStatusSaveFailed": {
+    "message": "Couldn't save."
+  }
+}
