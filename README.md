@@ -2,6 +2,8 @@
 
 A Chrome extension that lists the expressions in a YouTube video whose meaning you can't guess from their words, and explains what each one means in that scene.
 
+[![Available on the Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Add_to_Chrome-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/ajfibhoghogflcbdpnfkccnacimejjgf)
+
 <!-- screenshot -->
 
 ## What it does
@@ -36,9 +38,9 @@ To process any other video, you need your own Mistral API key. **The key must be
 
 ## Install
 
-Chrome Web Store: *link will be added after publication.*
+[**Add ReelVocab to Chrome from the Chrome Web Store.**](https://chromewebstore.google.com/detail/ajfibhoghogflcbdpnfkccnacimejjgf)
 
-Until then, load it unpacked (Chrome 114 or later):
+For development or source review, you can also load it unpacked (Chrome 114 or later):
 
 1. Build it (see [Development](#development)).
 2. Open `chrome://extensions` and turn on **Developer mode**.
